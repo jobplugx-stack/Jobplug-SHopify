@@ -1,0 +1,12 @@
+{% case page.handle %}{% when 'free-consultant' %}{% render 'jp-booking' %}{% when 'lets-find-your-fit' %}{% render 'jp-intake' %}{% when 'contact' %}{% render 'jp-contact' %}{% when 'about-me' %}{% render 'jp-about-content' %}{% when 'testimonials' %}{% render 'jp-stories-content' %}{% else %}<section class="wrap section"><h1>{{ page.title | escape }}</h1><div class="prose">{{ page.content }}</div></section>{% endcase %}
+{% schema %}
+{
+  "name": "Page",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Page"
+    }
+  ]
+}
+{% endschema %}

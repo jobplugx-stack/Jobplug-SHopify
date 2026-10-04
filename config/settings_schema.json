@@ -1,0 +1,27 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "JobPlug \u2014 Next Chapter",
+    "theme_version": "1.0.0",
+    "theme_author": "JobPlug",
+    "theme_documentation_url": "https://www.jobplug.co",
+    "theme_support_url": "https://www.jobplug.co/pages/contact"
+  },
+  {
+    "name": "Booking and intake",
+    "settings": [
+      {
+        "type": "url",
+        "id": "calendly_url",
+        "label": "Calendly booking URL",
+        "info": "Use the event URL without query parameters."
+      },
+      {
+        "type": "url",
+        "id": "google_form_url",
+        "label": "Google Form respondent URL",
+        "info": "Use the full Google Forms viewform URL without query parameters. Submissions go directly to this form."
+      }
+    ]
+  }
+]

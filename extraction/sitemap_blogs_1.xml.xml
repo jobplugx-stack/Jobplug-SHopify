@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.jobplug.co/blogs/news</loc>
+    <lastmod>2025-02-24T03:01:28-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jobplug.co/blogs/news/how-a-professionally-edited-resume-can-land-you-more-interviews</loc>
+    <lastmod>2025-02-24T02:57:22-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://cdn.shopify.com/s/files/1/0644/4964/2631/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442</image:loc>
+      <image:title>How a Professionally Edited Resume Can Land You More Interviews</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.jobplug.co/blogs/news/why-technical-interview-preparation-is-the-key-to-landing-your-dream-job</loc>
+    <lastmod>2025-02-24T03:00:04-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://cdn.shopify.com/s/files/1/0644/4964/2631/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604</image:loc>
+      <image:title>Why Technical Interview Preparation is the Key to Landing Your Dream Job</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.jobplug.co/blogs/news/salary-negotiation-how-to-get-paid-what-you-deserve</loc>
+    <lastmod>2025-02-24T03:01:28-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://cdn.shopify.com/s/files/1/0644/4964/2631/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688</image:loc>
+      <image:title>Salary Negotiation: How to Get Paid What You Deserve</image:title>
+    </image:image>
+  </url>
+</urlset>

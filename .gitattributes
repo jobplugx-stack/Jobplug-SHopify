@@ -1,0 +1,7 @@
+# Preserve extracted website bytes and keep generated assets out of source reviews.
+extraction/** -diff -whitespace linguist-vendored=true
+preview/** -whitespace linguist-generated=true
+extraction-report.html -whitespace linguist-generated=true
+*.zip binary
+*.png binary
+*.jpg binary

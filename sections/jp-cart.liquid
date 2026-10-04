@@ -1,0 +1,12 @@
+<section class="wrap section"><h1>Your next step.</h1>{% if cart.item_count > 0 %}<form action="{{ routes.cart_url }}" method="post">{% for item in cart.items %}<div class="cart-row"><div><a href="{{ item.url }}">{{ item.product.title | escape }}</a><p class="small">{{ item.variant.title | escape }}</p><a class="small" href="{{ item.url_to_remove }}">Remove</a></div><label>Qty<input type="number" name="updates[]" value="{{ item.quantity }}" min="0" aria-label="Quantity for {{ item.product.title | escape }}"></label><span>{{ item.final_line_price | money }}</span></div>{% endfor %}<p class="cart-total">Total: {{ cart.total_price | money }}</p><p class="small">Taxes and any applicable charges are calculated at checkout.</p><div class="actions"><button type="submit" name="update" class="btn outline">Update cart</button><button type="submit" name="checkout" class="btn">Continue to checkout →</button></div></form>{% else %}<div class="empty"><p>Your cart is empty. Let’s find the right support for you.</p><div class="actions" style="justify-content:center"><a class="btn " href="{{ routes.collections_url }}/services">Explore services <span class="arrow" aria-hidden="true">↗</span></a></div></div>{% endif %}</section>
+{% schema %}
+{
+  "name": "Cart",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Cart"
+    }
+  ]
+}
+{% endschema %}

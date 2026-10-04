@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "main": {
+      "type": "jp-article"
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

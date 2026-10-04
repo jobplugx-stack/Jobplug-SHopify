@@ -1,0 +1,2150 @@
+[
+  {
+    "url": "https://www.jobplug.co/",
+    "status": 200,
+    "file": "home.html",
+    "text_file": "home.txt",
+    "links": [
+      "#MainContent",
+      "#jobplug",
+      "#nxt-sec",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/frontpage",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/career-pivot-pro-for-career-changers",
+      "/products/interview-ready-package",
+      "/products/job-applier",
+      "/products/mock-technical-interview",
+      "/products/tech-career-consulting",
+      "/products/tech-principles-study-session",
+      "/products/technical-interview-preparation-1",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=375 375w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=550 550w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=750 750w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=1100 1100w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=1500 1500w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=1780 1780w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=2000 2000w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=3000 3000w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=3840 3840w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184 4096w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=3000",
+        "loading": "lazy",
+        "alt": "",
+        "width": "4096",
+        "height": "2731",
+        "class": "desktop-slider"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=375 375w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=550 550w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=750 750w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=1100 1100w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=1500 1500w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=1780 1780w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=2000 2000w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=3000 3000w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=3840 3840w,//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184 4096w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/bankers-windows.jpg?v=1780378184&width=1500",
+        "loading": "lazy",
+        "alt": "",
+        "width": "4096",
+        "height": "2731",
+        "class": "mobile-slider"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=375 375w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=550 550w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=750 750w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=1100 1100w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=1500 1500w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=1780 1780w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=2000 2000w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=3000 3000w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053 3000w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=3000",
+        "loading": "lazy",
+        "alt": "",
+        "width": "3000",
+        "height": "2000",
+        "class": "desktop-slider"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=375 375w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=550 550w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=750 750w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=1100 1100w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=1500 1500w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=1780 1780w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=2000 2000w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=3000 3000w,//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053 3000w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/full-length-cheerful-business-people-sitting-chair.jpg?v=1752655053&width=1500",
+        "loading": "lazy",
+        "alt": "",
+        "width": "3000",
+        "height": "2000",
+        "class": "mobile-slider"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=375 375w,//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=550 550w,//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=750 750w,//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=1100 1100w,//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=1500 1500w,//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537 1500w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=3000",
+        "loading": "lazy",
+        "alt": "",
+        "width": "1500",
+        "height": "1001",
+        "class": "desktop-slider"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=375 375w,//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=550 550w,//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=750 750w,//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=1100 1100w,//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=1500 1500w,//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537 1500w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/261.jpg?v=1752654537&width=1500",
+        "loading": "lazy",
+        "alt": "",
+        "width": "1500",
+        "height": "1001",
+        "class": "mobile-slider"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=375 375w,//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=550 550w,//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=750 750w,//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=1100 1100w,//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=1500 1500w,//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555 1500w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=3000",
+        "loading": "lazy",
+        "alt": "",
+        "width": "1500",
+        "height": "1167",
+        "class": "desktop-slider"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=375 375w,//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=550 550w,//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=750 750w,//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=1100 1100w,//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=1500 1500w,//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555 1500w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/2148087195.jpg?v=1752654555&width=1500",
+        "loading": "lazy",
+        "alt": "",
+        "width": "1500",
+        "height": "1167",
+        "class": "mobile-slider"
+      },
+      {
+        "class": "grid-banner-image",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Writers_Room_Kristine_Isabedra_Photos_ID1000.jpg?v=1740982941&width=375 375w,//www.jobplug.co/cdn/shop/files/DTS_Writers_Room_Kristine_Isabedra_Photos_ID1000.jpg?v=1740982941&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Writers_Room_Kristine_Isabedra_Photos_ID1000.jpg?v=1740982941&width=750 750w,//www.jobplug.co/cdn/shop/files/DTS_Writers_Room_Kristine_Isabedra_Photos_ID1000.jpg?v=1740982941&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Writers_Room_Kristine_Isabedra_Photos_ID1000.jpg?v=1740982941&width=1500 1280w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Writers_Room_Kristine_Isabedra_Photos_ID1000.jpg?v=1740982941&width=1500",
+        "loading": "lazy",
+        "alt": "",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "class": "grid-banner-image",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Home_Buyer_Mathew_Addington_Photos_ID1415.jpg?v=1740982960&width=375 375w,//www.jobplug.co/cdn/shop/files/DTS_Home_Buyer_Mathew_Addington_Photos_ID1415.jpg?v=1740982960&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Home_Buyer_Mathew_Addington_Photos_ID1415.jpg?v=1740982960&width=750 750w,//www.jobplug.co/cdn/shop/files/DTS_Home_Buyer_Mathew_Addington_Photos_ID1415.jpg?v=1740982960&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Home_Buyer_Mathew_Addington_Photos_ID1415.jpg?v=1740982960&width=1500 1280w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Home_Buyer_Mathew_Addington_Photos_ID1415.jpg?v=1740982960&width=1500",
+        "loading": "lazy",
+        "alt": "",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "class": "grid-banner-image",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455.jpg?v=1740982979&width=375 375w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455.jpg?v=1740982979&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455.jpg?v=1740982979&width=750 750w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455.jpg?v=1740982979&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455.jpg?v=1740982979&width=1500 1280w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455.jpg?v=1740982979&width=1500",
+        "loading": "lazy",
+        "alt": "",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/5132856_100x100.png?v=1759026061",
+        "alt": "Pick Your Package"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/9215034_100x100.png?v=1759026038",
+        "alt": "Create Your Profile"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/2345201_100x100.png?v=1759026109",
+        "alt": "Research & Market Alignment"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/17227331_100x100.png?v=1759026309",
+        "alt": "Opportunity Matching"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/1268491_100x100.png?v=1759026511",
+        "alt": "Resume + Branding"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/8649339_100x100.png?v=1759026586",
+        "alt": "Targeted Applications"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/netflix.png?v=1740982702&width=375 375w,//www.jobplug.co/cdn/shop/files/netflix.png?v=1740982702 512w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/netflix.png?v=1740982702&width=1500",
+        "loading": "lazy",
+        "class": "dt-sc-brand-image",
+        "alt": "",
+        "width": "512",
+        "height": "512"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/search.png?v=1740982537&width=375 375w,//www.jobplug.co/cdn/shop/files/search.png?v=1740982537 512w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/search.png?v=1740982537&width=1500",
+        "loading": "lazy",
+        "class": "dt-sc-brand-image",
+        "alt": "",
+        "width": "512",
+        "height": "512"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/facebook_1.png?v=1740982504&width=375 375w,//www.jobplug.co/cdn/shop/files/facebook_1.png?v=1740982504 512w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/facebook_1.png?v=1740982504&width=1500",
+        "loading": "lazy",
+        "class": "dt-sc-brand-image",
+        "alt": "",
+        "width": "512",
+        "height": "512"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/apple_1_3ff1cac3-a117-4606-baf1-a32c4cfed0de.png?v=1740982466&width=375 375w,//www.jobplug.co/cdn/shop/files/apple_1_3ff1cac3-a117-4606-baf1-a32c4cfed0de.png?v=1740982466 512w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/apple_1_3ff1cac3-a117-4606-baf1-a32c4cfed0de.png?v=1740982466&width=1500",
+        "loading": "lazy",
+        "class": "dt-sc-brand-image",
+        "alt": "",
+        "width": "512",
+        "height": "512"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/chatgpt.png?v=1740982647&width=375 375w,//www.jobplug.co/cdn/shop/files/chatgpt.png?v=1740982647 512w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/chatgpt.png?v=1740982647&width=1500",
+        "loading": "lazy",
+        "class": "dt-sc-brand-image",
+        "alt": "",
+        "width": "512",
+        "height": "512"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/social.png?v=1740982599&width=375 375w,//www.jobplug.co/cdn/shop/files/social.png?v=1740982599 512w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/social.png?v=1740982599&width=1500",
+        "loading": "lazy",
+        "class": "dt-sc-brand-image",
+        "alt": "",
+        "width": "512",
+        "height": "512"
+      },
+      {
+        "class": "multicolumn-card__image",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=275 275w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=710 710w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=550",
+        "sizes": "(min-width: 990px) 550px,\n                        (min-width: 750px) 550px,\n                        calc(100vw - 30px)",
+        "alt": "",
+        "height": "853",
+        "width": "1280",
+        "loading": "lazy"
+      },
+      {
+        "class": "multicolumn-card__image",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=275 275w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=710 710w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=550",
+        "sizes": "(min-width: 990px) 550px,\n                        (min-width: 750px) 550px,\n                        calc(100vw - 30px)",
+        "alt": "",
+        "height": "853",
+        "width": "1280",
+        "loading": "lazy"
+      },
+      {
+        "class": "multicolumn-card__image",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=275 275w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=710 710w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=550",
+        "sizes": "(min-width: 990px) 550px,\n                        (min-width: 750px) 550px,\n                        calc(100vw - 30px)",
+        "alt": "",
+        "height": "853",
+        "width": "1280",
+        "loading": "lazy"
+      },
+      {
+        "class": "multicolumn-card__image",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Passion_Economy_Daniel_Faro_Photos_ID4763_1.jpg?v=1740989459&width=275 275w,//www.jobplug.co/cdn/shop/files/DTS_Passion_Economy_Daniel_Faro_Photos_ID4763_1.jpg?v=1740989459&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Passion_Economy_Daniel_Faro_Photos_ID4763_1.jpg?v=1740989459&width=710 710w,//www.jobplug.co/cdn/shop/files/DTS_Passion_Economy_Daniel_Faro_Photos_ID4763_1.jpg?v=1740989459 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Passion_Economy_Daniel_Faro_Photos_ID4763_1.jpg?v=1740989459&width=550",
+        "sizes": "(min-width: 990px) 550px,\n                        (min-width: 750px) 550px,\n                        calc(100vw - 30px)",
+        "alt": "",
+        "height": "853",
+        "width": "1280",
+        "loading": "lazy"
+      },
+      {
+        "class": "multicolumn-card__image",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=275 275w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=710 710w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=550",
+        "sizes": "(min-width: 990px) 550px,\n                        (min-width: 750px) 550px,\n                        calc(100vw - 30px)",
+        "alt": "",
+        "height": "853",
+        "width": "1280",
+        "loading": "lazy"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "home.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/agents.md",
+    "status": 200,
+    "file": "agents.md.html",
+    "text_file": "agents.md.txt",
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "integrations": []
+  },
+  {
+    "url": "https://www.jobplug.co/blogs/news",
+    "status": 200,
+    "file": "blogs__news.html",
+    "text_file": "blogs__news.txt",
+    "links": [
+      "#MainContent",
+      "#news",
+      "/",
+      "/blogs/news/how-a-professionally-edited-resume-can-land-you-more-interviews",
+      "/blogs/news/salary-negotiation-how-to-get-paid-what-you-deserve",
+      "/blogs/news/why-technical-interview-preparation-is-the-key-to-landing-your-dream-job",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=350 350w,\n                         //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=750 750w,\n                         //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=1100 1100w,\n                         \n                         \n                         \n                         //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688 1344w",
+        "sizes": "(min-width: 1420px) 1320px, (min-width: 750px) calc(100vw - 10rem), 100vw",
+        "src": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=1100",
+        "loading": "lazy",
+        "width": "1344",
+        "height": "768",
+        "alt": "Salary Negotiation: How to Get Paid What You Deserve"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=350 350w,\n                         //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=750 750w,\n                         //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=1100 1100w,\n                         \n                         \n                         \n                         //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604 1344w",
+        "sizes": "(min-width: 1420px) 1320px, (min-width: 750px) calc(100vw - 10rem), 100vw",
+        "src": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=1100",
+        "loading": "lazy",
+        "width": "1344",
+        "height": "768",
+        "alt": "Why Technical Interview Preparation is the Key to Landing Your Dream Job"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=350 350w,\n                         //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=750 750w,\n                         //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=1100 1100w,\n                         \n                         \n                         \n                         //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442 1344w",
+        "sizes": "(min-width: 1420px) 1320px, (min-width: 750px) calc(100vw - 10rem), 100vw",
+        "src": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=1100",
+        "loading": "lazy",
+        "width": "1344",
+        "height": "768",
+        "alt": "How a Professionally Edited Resume Can Land You More Interviews"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=165 165w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=360 360w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=533 533w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=720 720w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=1000 1000w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688 1344w",
+        "src": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=1500",
+        "sizes": "(min-width: 1420px) 660px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)",
+        "alt": "Salary Negotiation: How to Get Paid What You Deserve",
+        "class": "motion-reduce article__image",
+        "loading": "lazy",
+        "width": "1344",
+        "height": "768",
+        "*style": "--aspect-ratio: 3 / 1;",
+        "*": null
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=165 165w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=360 360w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=533 533w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=720 720w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=1000 1000w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604 1344w",
+        "src": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=1500",
+        "sizes": "(min-width: 1420px) 660px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)",
+        "alt": "Why Technical Interview Preparation is the Key to Landing Your Dream Job",
+        "class": "motion-reduce article__image",
+        "loading": "lazy",
+        "width": "1344",
+        "height": "768",
+        "*style": "--aspect-ratio: 3 / 1;",
+        "*": null
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=165 165w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=360 360w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=533 533w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=720 720w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=1000 1000w,//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442 1344w",
+        "src": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=1500",
+        "sizes": "(min-width: 1420px) 660px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)",
+        "alt": "How a Professionally Edited Resume Can Land You More Interviews",
+        "class": "motion-reduce article__image",
+        "loading": "lazy",
+        "width": "1344",
+        "height": "768",
+        "*style": "--aspect-ratio: 3 / 1;",
+        "*": null
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "blogs__news.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/blogs/news/how-a-professionally-edited-resume-can-land-you-more-interviews",
+    "status": 200,
+    "file": "blogs__news__how-a-professionally-edited-resume-can-land-you-more-interviews.html",
+    "text_file": "blogs__news__how-a-professionally-edited-resume-can-land-you-more-interviews.txt",
+    "links": [
+      "#MainContent",
+      "#how-a-professionally-edited-resume-can-land-you-more-interviews",
+      "/",
+      "/blogs/news/why-technical-interview-preparation-is-the-key-to-landing-your-dream-job",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=350 350w,\n                  //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=750 750w,\n                  //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=1100 1100w,\n                  \n                  \n                  \n                  //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442 1344w",
+        "sizes": "(min-width: 1420px) 1320px, (min-width: 750px) calc(100vw - 10rem), 100vw",
+        "src": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94024.jpg?v=1740387442&width=1100",
+        "loading": "lazy",
+        "width": "1344",
+        "height": "768",
+        "alt": "How a Professionally Edited Resume Can Land You More Interviews"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "blogs__news__how-a-professionally-edited-resume-can-land-you-more-interviews.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/blogs/news/salary-negotiation-how-to-get-paid-what-you-deserve",
+    "status": 200,
+    "file": "blogs__news__salary-negotiation-how-to-get-paid-what-you-deserve.html",
+    "text_file": "blogs__news__salary-negotiation-how-to-get-paid-what-you-deserve.txt",
+    "links": [
+      "#MainContent",
+      "#salary-negotiation-how-to-get-paid-what-you-deserve",
+      "/",
+      "/blogs/news/why-technical-interview-preparation-is-the-key-to-landing-your-dream-job",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=350 350w,\n                  //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=750 750w,\n                  //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=1100 1100w,\n                  \n                  \n                  \n                  //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688 1344w",
+        "sizes": "(min-width: 1420px) 1320px, (min-width: 750px) calc(100vw - 10rem), 100vw",
+        "src": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94026.jpg?v=1740387688&width=1100",
+        "loading": "lazy",
+        "width": "1344",
+        "height": "768",
+        "alt": "Salary Negotiation: How to Get Paid What You Deserve"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "blogs__news__salary-negotiation-how-to-get-paid-what-you-deserve.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/blogs/news/why-technical-interview-preparation-is-the-key-to-landing-your-dream-job",
+    "status": 200,
+    "file": "blogs__news__why-technical-interview-preparation-is-the-key-to-landing-your-dream-job.html",
+    "text_file": "blogs__news__why-technical-interview-preparation-is-the-key-to-landing-your-dream-job.txt",
+    "links": [
+      "#MainContent",
+      "#why-technical-interview-preparation-is-the-key-to-landing-your-dream-j",
+      "/",
+      "/blogs/news/how-a-professionally-edited-resume-can-land-you-more-interviews",
+      "/blogs/news/salary-negotiation-how-to-get-paid-what-you-deserve",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=350 350w,\n                  //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=750 750w,\n                  //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=1100 1100w,\n                  \n                  \n                  \n                  //www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604 1344w",
+        "sizes": "(min-width: 1420px) 1320px, (min-width: 750px) calc(100vw - 10rem), 100vw",
+        "src": "//www.jobplug.co/cdn/shop/articles/freepik__the-style-is-candid-image-photography-with-natural__94025.jpg?v=1740387604&width=1100",
+        "loading": "lazy",
+        "width": "1344",
+        "height": "768",
+        "alt": "Why Technical Interview Preparation is the Key to Landing Your Dream Job"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "blogs__news__why-technical-interview-preparation-is-the-key-to-landing-your-dream-job.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/collections/frontpage",
+    "status": 200,
+    "file": "collections__frontpage.html",
+    "text_file": "collections__frontpage.txt",
+    "links": [
+      "#MainContent",
+      "#home-page",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/frontpage",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/resume-editing",
+      "/products/tech-career-consulting",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Technical Resume Editing",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Technical Consulting: Elevate Your Career with Expert Guidance",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "collections__frontpage.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/collections/packages",
+    "status": 200,
+    "file": "collections__packages.html",
+    "text_file": "collections__packages.txt",
+    "links": [
+      "#MainContent",
+      "#packages",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/30-day-tech-interview-vip-package-land-your-dream-job",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "https://www.jobplug.co/products/mock-technical-interview"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "collections__packages.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/collections/services",
+    "status": 200,
+    "file": "collections__services.html",
+    "text_file": "collections__services.txt",
+    "links": [
+      "#MainContent",
+      "#services",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/collections/services",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "collections__services.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/pages/about-me",
+    "status": 200,
+    "file": "pages__about-me.html",
+    "text_file": "pages__about-me.txt",
+    "links": [
+      "#MainContent",
+      "#about-me",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "mailto:"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/IMG_8715.heic?v=1763186839&width=165 165w,//www.jobplug.co/cdn/shop/files/IMG_8715.heic?v=1763186839&width=360 360w,//www.jobplug.co/cdn/shop/files/IMG_8715.heic?v=1763186839&width=535 535w,//www.jobplug.co/cdn/shop/files/IMG_8715.heic?v=1763186839&width=750 750w,//www.jobplug.co/cdn/shop/files/IMG_8715.heic?v=1763186839&width=1070 1070w,//www.jobplug.co/cdn/shop/files/IMG_8715.heic?v=1763186839&width=1500 1500w,//www.jobplug.co/cdn/shop/files/IMG_8715.heic?v=1763186839 4284w",
+        "src": "//www.jobplug.co/cdn/shop/files/IMG_8715.heic?v=1763186839&width=1500",
+        "sizes": "(min-width: 1420px) 660px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4284",
+        "height": "5712"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "pages__about-me.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/pages/contact",
+    "status": 200,
+    "file": "pages__contact.html",
+    "text_file": "pages__contact.txt",
+    "links": [
+      "#MainContent",
+      "#contact",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=375 375w,//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=550 550w,//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=750 750w,//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=1100 1100w,//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=1500 1500w,//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=1500 1500w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=1500",
+        "loading": "lazy",
+        "alt": "",
+        "width": "1500",
+        "height": "998"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=375 375w,//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=550 550w,//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=750 750w,//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=1100 1100w,//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=1500 1500w,//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=1500 1500w",
+        "sizes": "100vw",
+        "src": "//www.jobplug.co/cdn/shop/files/2149065334.jpg?v=1752654778&width=1500",
+        "loading": "lazy",
+        "alt": "",
+        "width": "1500",
+        "height": "998"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "pages__contact.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/pages/data-sharing-opt-out",
+    "status": 200,
+    "file": "pages__data-sharing-opt-out.html",
+    "text_file": "pages__data-sharing-opt-out.txt",
+    "links": [
+      "#MainContent",
+      "#your-privacy-choices",
+      "/",
+      "/cart",
+      "/collections",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "pages__data-sharing-opt-out.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/pages/free-consultant",
+    "status": 200,
+    "file": "pages__free-consultant.html",
+    "text_file": "pages__free-consultant.txt",
+    "links": [
+      "#MainContent",
+      "#free-consultant",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [
+      "https://assets.calendly.com/assets/external/widget.js",
+      "https://calendly.com/customtechconsultants/30min"
+    ],
+    "content_file": "pages__free-consultant.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/pages/lets-find-your-fit",
+    "status": 200,
+    "file": "pages__lets-find-your-fit.html",
+    "text_file": "pages__lets-find-your-fit.txt",
+    "links": [
+      "#MainContent",
+      "#let-39-s-find-your-fit",
+      "/",
+      "/cart",
+      "/collections",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [
+      {
+        "src": "https://docs.google.com/forms/d/e/1FAIpQLSdvUzJ04y0Iykh8uMRdfWHj5e1PZhLu4f47dK-4NkG0edHzIg/viewform?embedded=true",
+        "width": "640",
+        "height": "3719",
+        "frameborder": "0",
+        "marginheight": "0",
+        "marginwidth": "0"
+      }
+    ],
+    "integrations": [
+      "https://docs.google.com/forms/d/e/1FAIpQLSdvUzJ04y0Iykh8uMRdfWHj5e1PZhLu4f47dK-4NkG0edHzIg/viewform?embedded=true"
+    ],
+    "content_file": "pages__lets-find-your-fit.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/pages/testimonials",
+    "status": 200,
+    "file": "pages__testimonials.html",
+    "text_file": "pages__testimonials.txt",
+    "links": [
+      "#MainContent",
+      "#testimonials",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "pages__testimonials.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/30-day-tech-interview-vip-package-land-your-dream-job",
+    "status": 200,
+    "file": "products__30-day-tech-interview-vip-package-land-your-dream-job.html",
+    "text_file": "products__30-day-tech-interview-vip-package-land-your-dream-job.txt",
+    "links": [
+      "#",
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#the-job-lock-in-package",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/30-day-tech-interview-vip-package-land-your-dream-job",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=1445",
+        "alt": "The Job Lock-In Package",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679295119495"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__30-day-tech-interview-vip-package-land-your-dream-job.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/career-pivot-pro-for-career-changers",
+    "status": 200,
+    "file": "products__career-pivot-pro-for-career-changers.html",
+    "text_file": "products__career-pivot-pro-for-career-changers.txt",
+    "links": [
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#career-pivot-pro-for-career-changers",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/career-pivot-pro-for-career-changers",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=1445",
+        "alt": "Career Pivot Pro (For Career Changers)",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679297347719"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__career-pivot-pro-for-career-changers.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/customized-interview-cheat-sheet",
+    "status": 200,
+    "file": "products__customized-interview-cheat-sheet.html",
+    "text_file": "products__customized-interview-cheat-sheet.txt",
+    "links": [
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#customized-interview-cheat-sheet-your-personalized-path-to-success",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/customized-interview-cheat-sheet",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=1445",
+        "alt": "Customized Interview Cheat Sheet Your Personalized Path to Success",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679192621191"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__customized-interview-cheat-sheet.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/interview-guide-breakdown",
+    "status": 200,
+    "file": "products__interview-guide-breakdown.html",
+    "text_file": "products__interview-guide-breakdown.txt",
+    "links": [
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#interview-guide-amp-breakdown",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/interview-guide-breakdown",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=1445",
+        "alt": "Interview Guide & Breakdown",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679190982791"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__interview-guide-breakdown.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/interview-ready-package",
+    "status": 200,
+    "file": "products__interview-ready-package.html",
+    "text_file": "products__interview-ready-package.txt",
+    "links": [
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#ace-the-interview",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/interview-ready-package",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=1445",
+        "alt": "Ace the Interview",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679296888967"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__interview-ready-package.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/job-applier",
+    "status": 200,
+    "file": "products__job-applier.html",
+    "text_file": "products__job-applier.txt",
+    "links": [
+      "#",
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#autoapply",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/job-applier",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=1445",
+        "alt": "AutoApply+",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25736689516679"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__job-applier.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/mock-technical-interview",
+    "status": 200,
+    "file": "products__mock-technical-interview.html",
+    "text_file": "products__mock-technical-interview.txt",
+    "links": [
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#the-plug-in-plan",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/mock-technical-interview",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=1445",
+        "alt": "The Plug- In Plan",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679186067591"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__mock-technical-interview.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/resume-editing",
+    "status": 200,
+    "file": "products__resume-editing.html",
+    "text_file": "products__resume-editing.txt",
+    "links": [
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#technical-resume-editing",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/resume-editing",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=1445",
+        "alt": "Technical Resume Editing",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679243247751"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__resume-editing.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/salary-negotiation-assistance",
+    "status": 200,
+    "file": "products__salary-negotiation-assistance.html",
+    "text_file": "products__salary-negotiation-assistance.txt",
+    "links": [
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#salary-negotiation-assistance",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/salary-negotiation-assistance",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=1445",
+        "alt": "Salary Negotiation Assistance",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679221948551"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__salary-negotiation-assistance.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/tech-career-consulting",
+    "status": 200,
+    "file": "products__tech-career-consulting.html",
+    "text_file": "products__tech-career-consulting.txt",
+    "links": [
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#technical-consulting-elevate-your-career-with-expert-guidance",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/tech-career-consulting",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=1445",
+        "alt": "Technical Consulting: Elevate Your Career with Expert Guidance",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679236104327"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__tech-career-consulting.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/tech-principles-study-session",
+    "status": 200,
+    "file": "products__tech-principles-study-session.html",
+    "text_file": "products__tech-principles-study-session.txt",
+    "links": [
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#tech-principles-study-session",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/tech-principles-study-session",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=1445",
+        "alt": "Tech Principles Study Session",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679214313607"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__tech-principles-study-session.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/products/technical-interview-preparation-1",
+    "status": 200,
+    "file": "products__technical-interview-preparation-1.html",
+    "text_file": "products__technical-interview-preparation-1.txt",
+    "links": [
+      "#MainContent",
+      "#ProductInfo-template--17168578478215__main",
+      "#technical-interview-preparation",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/technical-interview-preparation-1",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US",
+      "javascript:void(0);"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=493 493w,\n          //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=600 600w,\n          //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=713 713w,\n          //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=823 823w,\n          //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=990 990w,\n          //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1100 1100w,\n          //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1206 1206w,\n          \n          \n          \n          \n          //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=493 493w,\n        //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=600 600w,\n        //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=713 713w,\n        //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=823 823w,\n        //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=990 990w,\n        //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1100 1100w,\n        //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1206 1206w,\n        \n        \n        \n        \n        //www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1946",
+        "sizes": "(min-width: 1420px) 726px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)",
+        "loading": "lazy",
+        "width": "973",
+        "class": "zoom_out",
+        "height": "649",
+        "alt": ""
+      },
+      {
+        "class": "global-media-settings global-media-settings--no-shadow",
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=550 550w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1100 1100w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228 1280w",
+        "sizes": "(min-width: 750px) calc(100vw - 22rem), 1100px",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1445",
+        "alt": "Technical Interview Preparation",
+        "loading": "lazy",
+        "width": "1100",
+        "height": "734",
+        "data-media-id": "25679181676679"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "products__technical-interview-preparation-1.content.txt"
+  },
+  {
+    "url": "https://www.jobplug.co/collections/all",
+    "status": 200,
+    "file": "collections__all.html",
+    "text_file": "collections__all.txt",
+    "links": [
+      "#MainContent",
+      "#products",
+      "/",
+      "/cart",
+      "/collections/all",
+      "/collections/packages",
+      "/pages/about-me",
+      "/pages/contact",
+      "/pages/free-consultant",
+      "/products/30-day-tech-interview-vip-package-land-your-dream-job",
+      "/products/career-pivot-pro-for-career-changers",
+      "/products/customized-interview-cheat-sheet",
+      "/products/interview-guide-breakdown",
+      "/products/interview-ready-package",
+      "/products/job-applier",
+      "/products/mock-technical-interview",
+      "/products/resume-editing",
+      "/products/salary-negotiation-assistance",
+      "/products/tech-career-consulting",
+      "/products/tech-principles-study-session",
+      "/products/technical-interview-preparation-1",
+      "https://www.jobplug.co/customer_authentication/redirect?locale=en\u00aeion_country=US"
+    ],
+    "images": [
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220 1x, //www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=440 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=220",
+        "loading": "lazy",
+        "class": "header__heading-logo",
+        "width": "220",
+        "height": "2709",
+        "alt": "JobPlug"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4135.jpg?v=1740990148&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Ace the Interview",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4157.jpg?v=1741838168&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "AutoApply+",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4122.jpg?v=1740990192&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Career Pivot Pro (For Career Changers)",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Wired_Allie_Lehman_Photos_ID2170.jpg?v=1740989400&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Customized Interview Cheat Sheet Your Personalized Path to Success",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Grand_Design_Daniel_Faro_Photos_ID4129.jpg?v=1740989344&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Interview Guide & Breakdown",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_AFTER_HOURS_Shauna_Summers_Photos_ID9127.jpg?v=1740989581&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Salary Negotiation Assistance",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Meticulous_Ray_Kang_Photos_ID2455_1.jpg?v=1740989528&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Tech Principles Study Session",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2947_1.jpg?v=1740989689&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Technical Consulting: Elevate Your Career with Expert Guidance",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Technical Interview Preparation",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Weekend_Brainstorm_Kristine_Isabedra_Photos_ID2889.jpg?v=1740989725&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "Technical Resume Editing",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_Remote_Studio_Tino_Renato_Photos_ID3705.jpg?v=1740989998&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "The Job Lock-In Package",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=165 165w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=360 360w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=533 533w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=720 720w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=940 940w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=1066 1066w,//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278 1280w",
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2954.jpg?v=1740989278&width=533",
+        "sizes": "(min-width: 1420px) 322px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)",
+        "alt": "The Plug- In Plan",
+        "class": "motion-reduce  loading-image",
+        "loading": "lazy",
+        "width": "1280",
+        "height": "853"
+      },
+      {
+        "srcset": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907, Liquid error (sections/footer line 116): Width must be between 1 and 5760 2x",
+        "src": "//www.jobplug.co/cdn/shop/files/Transparent_PNG-01.png?v=1779565907&width=400",
+        "alt": "",
+        "loading": "lazy",
+        "width": "4584",
+        "height": "2709",
+        "style": "max-width: min(100%, px);"
+      },
+      {
+        "src": "//www.jobplug.co/cdn/shop/files/DTS_new_studio_Daniel_Faro_Photos_ID5637.jpg?v=1740989228&width=1920"
+      }
+    ],
+    "embeds": [],
+    "integrations": [],
+    "content_file": "collections__all.content.txt"
+  }
+]

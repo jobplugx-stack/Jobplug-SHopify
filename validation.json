@@ -1,0 +1,45 @@
+{
+  "shopify_theme_check": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "javascript_syntax": "passed",
+  "preview_pages": 27,
+  "internal_links_and_assets": "all targets resolve",
+  "unrendered_liquid_in_preview": 0,
+  "desktop": {
+    "width": 1280,
+    "horizontal_overflow": false,
+    "visual_review": "passed"
+  },
+  "mobile": {
+    "width": 390,
+    "horizontal_overflow": false,
+    "menu_open_close_and_navigation": "passed",
+    "visual_review": "passed"
+  },
+  "service_filter": {
+    "interview_prep_visible_cards": 4,
+    "status_announcement": "passed"
+  },
+  "faq_keyboard_native_details": "implemented; open/close interaction checked",
+  "homepage_console_errors": [],
+  "calendly_direct_url": "loads; 15-minute event and available dates observed",
+  "google_form_direct_url": "loads; respondent fields enabled after page initialization",
+  "google_form_existing_store_embed": "loads",
+  "local_preview_third_party_iframes": "blank; top and bottom direct-link fallbacks provided",
+  "shopify_hosted_embed_verification": "pending store access",
+  "google_response_submission": "not performed",
+  "calendly_booking_submission": "not performed",
+  "shopify_checkout": "pending store access",
+  "production_changes": false,
+  "application_walkthrough": {
+    "stages": 5,
+    "forward_and_previous_controls": "passed",
+    "document_offsets": "350px desktop; 295px mobile per stage",
+    "mobile_390x844": "all stages fit; no horizontal overflow",
+    "short_viewport_390x650": "static fallback; all five stages visible; no horizontal overflow",
+    "reduced_motion": "static fallback implemented",
+    "data_submission": false
+  }
+}

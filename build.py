@@ -71,7 +71,7 @@ section('jp-apps','{% for block in section.blocks %}{% render block %}{% endfor 
 for tpl,name in [('page','page'),('product','product'),('collection','collection'),('cart','cart'),('blog','blog'),('article','article'),('search','search'),('404','404')]:
  write(T/'templates'/(tpl+'.json'),json.dumps({'sections':{'main':{'type':'jp-'+name}},'order':['main']},indent=2))
 walkthrough=section('jp-application-journey',(R/'application-walkthrough.html').read_text())
-order=['hero','services','application-journey','process','packages','stories','about','faq','cta']
+order=['hero','services','process','packages','stories','about','faq','cta']
 write(T/'templates/index.json',json.dumps({'sections':{n:{'type':'jp-'+n} for n in order},'order':order},indent=2))
 settings=[{'name':'theme_info','theme_name':'JobPlug — Next Chapter','theme_version':'1.0.0','theme_author':'JobPlug','theme_documentation_url':'https://www.jobplug.co','theme_support_url':'https://www.jobplug.co/pages/contact'},{'name':'Booking and intake','settings':[{'type':'url','id':'calendly_url','label':'Calendly booking URL','info':'Use the event URL without query parameters.'},{'type':'url','id':'google_form_url','label':'Google Form respondent URL','info':'Use the full Google Forms viewform URL without query parameters. Submissions go directly to this form.'}]}]
 write(T/'config/settings_schema.json',json.dumps(settings,indent=2));write(T/'config/settings_data.json',json.dumps({'current':{'calendly_url':CAL,'google_form_url':FORM},'presets':{}},indent=2));write(T/'locales/en.default.json','{}')
@@ -89,7 +89,7 @@ preview_note='<div class="preview-note">DESIGN PREVIEW · Connected to the exist
 def page(path,title,body):
  full='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+html.escape(title)+' | JobPlug</title><meta name="robots" content="noindex"><link rel="stylesheet" href="/assets/jobplug.css"><script defer src="/assets/jobplug.js"></script></head><body><a class="skip" href="#main">Skip to content</a>'+preview_note+header+'<main id="main" tabindex="-1">'+render(body)+'</main>'+render(footer)+'</body></html>'
  write(P/path/'index.html' if path else P/'index.html',full)
-page('','Your career. Connected.',hero+servicebody+walkthrough+process+packages+proof+about+faq+cta)
+page('','Your career. Connected.',hero+servicebody+process+packages+proof+about+faq+cta)
 page('pages/free-consultant','Book a consultation',booking)
 page('pages/lets-find-your-fit','Find your fit',intake)
 page('pages/about-me','Our story',(T/'snippets/jp-about-content.liquid').read_text())

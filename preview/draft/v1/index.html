@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JobPlug — Redesign Draft</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#4579ff;--blue-d:#2f5fe0;--ink:#1d1d1f;--mute:#6e6e73;--bg:#fff;--alt:#f5f5f7;--line:#d2d2d7;--dark:#000;--r:28px;
+--font:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter","Helvetica Neue",Arial,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--font);color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased;line-height:1.47;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+.eyebrow{font-size:14px;font-weight:600;letter-spacing:.01em;color:var(--blue);display:flex;align-items:center;gap:10px}
+.eyebrow b{font-variant-numeric:tabular-nums;color:var(--mute);font-weight:600}
+h1,h2,h3{letter-spacing:-.035em;line-height:1.04;font-weight:700}
+h2{font-size:clamp(38px,6.2vw,76px)}
+.lead{font-size:clamp(19px,2.2vw,26px);color:var(--mute);line-height:1.32;letter-spacing:-.01em;font-weight:500;max-width:640px}
+.grad{background:linear-gradient(90deg,var(--blue),#8aa8ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn{display:inline-flex;align-items:center;gap:8px;font-size:17px;font-weight:500;padding:13px 26px;border-radius:99px;background:var(--blue);color:#fff;transition:background .25s,transform .25s}
+.btn:hover{background:var(--blue-d);transform:scale(1.03)}
+.btn.ghost{background:transparent;color:var(--blue);padding:13px 6px}.btn.ghost:hover{background:transparent;text-decoration:underline;transform:none}
+.reveal{opacity:0;transform:translateY(36px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}
+
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;height:52px;z-index:100;background:rgba(255,255,255,.72);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.08)}
+.nav-in{max-width:1080px;margin:0 auto;height:100%;padding:0 24px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:18px;letter-spacing:-.03em}
+.logo i{width:24px;height:24px;border-radius:7px;background:var(--blue);color:#fff;display:grid;place-items:center;font-style:normal;font-size:13px}
+.stepper{font-size:13px;color:var(--mute);font-weight:500;font-variant-numeric:tabular-nums;white-space:nowrap}
+.stepper b{color:var(--ink);font-weight:600}
+.nav-cta{justify-self:end;font-size:13px;font-weight:500;background:var(--blue);color:#fff;padding:6px 14px;border-radius:99px}
+.bar{position:absolute;left:0;bottom:-1px;height:2px;width:100%;background:var(--blue);transform:scaleX(0);transform-origin:0 50%}
+
+/* hero stage */
+.hero{height:520vh;position:relative}
+.stage{position:sticky;top:0;height:100vh;overflow:hidden;background:radial-gradient(1200px 600px at 50% 0,#eef2ff,transparent 70%),#fff}
+.hl{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:60px 24px 0;will-change:transform,opacity}
+.hl h1{font-size:clamp(46px,9vw,112px);max-width:1000px}
+.hl p{margin:22px auto 30px;font-size:clamp(20px,2.4vw,28px);color:var(--mute);font-weight:500;letter-spacing:-.015em;max-width:620px;line-height:1.25}
+.hl .row{display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap}
+.hint{position:absolute;bottom:26px;left:0;right:0;text-align:center;font-size:13px;color:var(--mute);font-weight:500;transition:opacity .3s}
+.hint:after{content:"";display:block;width:1px;height:28px;background:linear-gradient(var(--mute),transparent);margin:8px auto 0}
+.caps{position:absolute;left:max(24px,calc(50% - 540px));top:50%;width:min(420px,40vw);transform:translateY(-50%);pointer-events:none}
+.cap{position:absolute;left:0;top:0;right:0;opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s}
+.cap.on{opacity:1;transform:none}
+.cap small{display:block;font-size:14px;font-weight:600;color:var(--blue);margin-bottom:10px}
+.cap h2{font-size:clamp(34px,4.4vw,56px)}
+.cap p{margin-top:14px;font-size:19px;color:var(--mute);line-height:1.35;font-weight:500}
+.sheetbox{position:absolute;left:50%;top:50%;width:380px;height:540px;margin:-270px 0 0 -190px;will-change:transform}
+.sheet{width:100%;height:100%;background:#fff;border-radius:26px;box-shadow:0 40px 100px -20px rgba(20,30,80,.35),0 0 0 1px rgba(0,0,0,.06);overflow:hidden;display:flex;flex-direction:column}
+.s-head{display:flex;align-items:center;gap:10px;padding:16px 18px;border-bottom:1px solid #eee}
+.s-head .logo i{width:28px;height:28px;font-size:14px}
+.s-head strong{font-size:14px;letter-spacing:-.01em}.s-head span{margin-left:auto;font-size:12px;font-weight:600;color:var(--blue);background:#eef2ff;padding:4px 10px;border-radius:99px;transition:.3s}
+.s-head span.sent{background:var(--blue);color:#fff}
+.s-win{flex:1;overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(transparent,#000 8%,#000 90%,transparent);mask-image:linear-gradient(transparent,#000 8%,#000 90%,transparent)}
+.s-track{padding:22px 22px 160px;position:relative;will-change:transform}
+.f{padding-bottom:24px;opacity:.35;transition:opacity .4s}.f.on{opacity:1}
+.f label{display:block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-bottom:8px}
+.in-box{border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;font-size:16px;font-weight:600;min-height:46px;display:flex;align-items:center;transition:.3s}
+.f.on .in-box{border-color:var(--blue);box-shadow:0 0 0 4px #4579ff1f}
+.caret{width:2px;height:18px;background:var(--blue);margin-left:2px;animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+.file{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:600}.file em{font-style:normal;background:var(--blue);color:#fff;font-size:10px;font-weight:800;padding:6px;border-radius:6px}
+.up{height:6px;border-radius:3px;background:#e8edff;margin-top:12px;overflow:hidden}.up i{display:block;height:100%;background:var(--blue);transform:scaleX(0);transform-origin:0 50%}
+.ok{margin-top:10px;font-size:12px;font-weight:700;color:var(--blue);opacity:0;transition:.3s}.ok.on{opacity:1}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{font-size:13px;font-weight:600;padding:7px 13px;border-radius:99px;background:var(--alt);color:var(--mute);transform:scale(.9);opacity:.4;transition:.35s}.chip.on{background:#eef2ff;color:var(--blue);transform:none;opacity:1}
+.ck{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:550;padding:5px 0}.ck i{width:20px;height:20px;border-radius:7px;border:1.5px solid var(--line);display:grid;place-items:center;font-style:normal;font-size:12px;color:transparent;transition:.3s}.ck.on i{background:var(--blue);border-color:var(--blue);color:#fff}
+.sub{text-align:center;font-size:16px;font-weight:700;padding:15px;border-radius:14px;background:var(--ink);color:#fff;transition:.35s}.sub.p{background:var(--blue);transform:scale(.97)}.sub.w{transform:scale(1.02);box-shadow:0 14px 30px -10px #4579ffaa}
+.note{margin-top:14px;font-size:11px;color:var(--mute);text-align:center}
+
+/* sections */
+section.step{padding:clamp(90px,14vw,180px) 0;position:relative}
+section.step.alt{background:var(--alt)}
+section.step.dark{background:var(--dark);color:#f5f5f7}
+section.step.dark .lead{color:#a1a1a6}
+.head{margin-bottom:clamp(44px,7vw,84px)}
+.head h2{margin:18px 0 20px}
+.head.c{text-align:center}.head.c .eyebrow{justify-content:center}.head.c .lead{margin:0 auto}
+
+/* bento */
+.bento{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.tile{background:#fff;border-radius:var(--r);padding:34px;min-height:290px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;transition:transform .5s cubic-bezier(.2,.7,.2,1),box-shadow .5s}
+.tile:hover{transform:translateY(-6px);box-shadow:0 30px 60px -30px rgba(0,0,0,.25)}
+.tile.w2{grid-column:span 2}
+.tile .ic{position:absolute;top:30px;left:34px;width:46px;height:46px;border-radius:14px;background:#eef2ff;color:var(--blue);display:grid;place-items:center;font-size:22px}
+.tile h3{font-size:26px;margin-bottom:10px}
+.tile p{font-size:16px;color:var(--mute);line-height:1.4}
+.tile.blue{background:var(--blue);color:#fff}.tile.blue p{color:#dfe7ff}.tile.blue .ic{background:rgba(255,255,255,.2);color:#fff}
+.tile.ink{background:#1d1d1f;color:#fff}.tile.ink p{color:#a1a1a6}.tile.ink .ic{background:#2c2c2e;color:#8aa8ff}
+.links{display:flex;gap:26px;flex-wrap:wrap;margin-top:34px;justify-content:center}
+.links a{color:var(--blue);font-size:17px}.links a:hover{text-decoration:underline}
+
+/* process */
+.proc{display:grid;gap:clamp(70px,12vw,150px)}
+.pstep{display:grid;grid-template-columns:auto 1fr;gap:clamp(24px,5vw,70px);align-items:start;opacity:.22;transition:opacity .6s}
+.pstep.on{opacity:1}
+.pstep .n{font-size:clamp(90px,16vw,220px);font-weight:700;letter-spacing:-.06em;line-height:.8;background:linear-gradient(180deg,#8aa8ff,var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}
+.pstep h3{font-size:clamp(30px,4.6vw,56px);margin-bottom:16px}
+.pstep p{font-size:clamp(18px,2vw,24px);color:#a1a1a6;max-width:520px;line-height:1.35;font-weight:500}
+
+/* packages */
+.pk{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}
+.pkg{background:var(--alt);border-radius:var(--r);padding:40px 34px;display:flex;flex-direction:column}
+.pkg small{font-size:13px;font-weight:600;color:var(--blue)}
+.pkg h3{font-size:30px;margin:10px 0 8px}
+.pkg .d{color:var(--mute);font-size:16px;line-height:1.4;min-height:66px}
+.price{font-size:56px;font-weight:700;letter-spacing:-.05em;margin:24px 0 2px}.price sup{font-size:26px;vertical-align:top;position:relative;top:10px;margin-right:2px}
+.pkg .once{font-size:13px;color:var(--mute);margin-bottom:24px}
+.pkg ul{list-style:none;padding:0;display:grid;gap:12px;margin-bottom:34px;font-size:15.5px}
+.pkg li{display:flex;gap:10px;line-height:1.35}.pkg li:before{content:"✓";color:var(--blue);font-weight:800}
+.pkg .btn{margin-top:auto;justify-content:center}
+.pkg.feat{background:var(--ink);color:#fff;transform:scale(1.03)}.pkg.feat .d,.pkg.feat .once{color:#a1a1a6}.pkg.feat small{color:#8aa8ff}
+.fine{text-align:center;color:var(--mute);font-size:13px;max-width:700px;margin:40px auto 0;line-height:1.5}
+.fine a{color:var(--blue)}
+
+/* stories */
+.quote{font-size:clamp(34px,6.4vw,82px);font-weight:700;letter-spacing:-.045em;line-height:1.04;text-align:center;max-width:1000px;margin:0 auto}
+.src{text-align:center;color:var(--mute);margin-top:30px;font-size:16px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:80px}
+.two div{background:#fff;border-radius:var(--r);padding:36px}.two h3{font-size:24px;margin-bottom:10px}.two p{color:var(--mute);font-size:17px;line-height:1.4}
+
+/* founder */
+.fo{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(36px,7vw,100px);align-items:start}
+.photo{position:sticky;top:90px}
+.photo img{border-radius:var(--r);aspect-ratio:3/4;object-fit:cover;width:100%;box-shadow:0 40px 80px -30px rgba(0,0,0,.35)}
+.photo figcaption{margin-top:16px;font-size:14px;color:var(--mute)}.photo figcaption b{color:var(--ink);display:block;font-size:16px}
+.letter{font-size:clamp(19px,1.9vw,23px);line-height:1.5;color:#3a3a3c;letter-spacing:-.01em}
+.letter h2{font-size:clamp(40px,5.4vw,68px);margin:18px 0 34px;color:var(--ink)}
+.letter p{margin-bottom:1.15em}
+.letter blockquote{font-size:clamp(26px,3.2vw,40px);line-height:1.15;letter-spacing:-.035em;font-weight:700;color:var(--ink);margin:46px 0;padding-left:26px;border-left:4px solid var(--blue)}
+.tl{display:grid;gap:0;margin:40px 0;border-top:1px solid var(--line)}
+.tl div{display:grid;grid-template-columns:90px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--line);font-size:17px}
+.tl b{color:var(--blue);font-weight:600}
+.slot{margin-top:46px;border:1.5px dashed var(--line);border-radius:var(--r);padding:34px;text-align:center;color:var(--mute);font-size:15px}
+.slot b{display:block;color:var(--ink);font-size:17px;margin-bottom:4px}
+.sig{font-size:34px;font-family:"Snell Roundhand","Segoe Script","Brush Script MT",cursive;color:var(--ink);margin-top:10px}
+
+/* faq */
+.faq{max-width:800px;margin:0 auto}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;padding:26px 0;font-size:clamp(20px,2.3vw,26px);font-weight:600;letter-spacing:-.02em}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font-size:32px;font-weight:300;color:var(--blue);line-height:1;transition:transform .3s}
+details[open] summary:after{transform:rotate(45deg)}
+details p{padding:0 0 28px;color:var(--mute);font-size:18px;line-height:1.5;max-width:680px}
+
+/* submit */
+.submit{text-align:center}
+.submit h2{font-size:clamp(46px,9vw,120px);margin:22px 0}
+.submit .row{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:40px}
+.badge{display:inline-flex;align-items:center;gap:10px;background:#111;border:1px solid #2c2c2e;border-radius:99px;padding:10px 20px;color:#a1a1a6;font-size:15px;font-weight:500}
+.badge i{width:22px;height:22px;border-radius:50%;background:var(--blue);display:grid;place-items:center;color:#fff;font-style:normal;font-size:12px;transform:scale(0);transition:transform .6s cubic-bezier(.3,1.6,.5,1) .4s}
+.reveal.in .badge i{transform:scale(1)}
+footer{background:var(--alt);padding:40px 0;font-size:13px;color:var(--mute)}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer a:hover{text-decoration:underline}
+.draftflag{position:fixed;left:14px;bottom:14px;z-index:120;background:#1d1d1fcc;color:#fff;font-size:12px;font-weight:600;padding:7px 12px;border-radius:99px;backdrop-filter:blur(8px)}
+
+@media(max-width:900px){
+ .bento{grid-template-columns:1fr 1fr}.tile.w2{grid-column:span 2}
+ .pk{grid-template-columns:1fr}.pkg.feat{transform:none}
+ .fo{grid-template-columns:1fr}.photo{position:static;max-width:380px}
+ .two{grid-template-columns:1fr}
+ .caps{left:24px;right:24px;width:auto;top:96px;transform:none}.cap h2{font-size:30px}.cap p{display:none}
+ .sheetbox{width:min(330px,84vw);height:min(470px,60vh);margin:-205px 0 0 calc(min(330px,84vw)/-2);top:62%}
+ .nav-in{grid-template-columns:1fr auto}.stepper{display:none}
+}
+@media(max-width:560px){.bento{grid-template-columns:1fr}.tile.w2{grid-column:auto}.pstep{grid-template-columns:1fr;gap:10px}.pstep .n{font-size:90px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="logo" href="#top"><i>⚡</i>JobPlug</a>
+    <div class="stepper" aria-live="off">Step <b data-n>01</b> of 08 · <span data-name>Start</span></div>
+    <a class="nav-cta" href="#submit">Apply</a>
+  </div>
+  <div class="bar" data-bar></div>
+</header>
+
+<!-- 01 START : pinned hero where a sample application fills itself in -->
+<div class="hero" id="top" data-step="Start">
+  <div class="stage">
+    <div class="hl" data-hl>
+      <h1>Your career is<br>an application.<br><span class="grad">Let’s get it accepted.</span></h1>
+      <p>Résumés, interviews, applications and offers — handled with a real person in your corner.</p>
+      <div class="row"><a class="btn" href="/pages/free-consultant/">Book a consultation</a><a class="btn ghost" href="#skills">See how it works ›</a></div>
+    </div>
+    <div class="caps" data-caps>
+      <div class="cap"><small>01 · About you</small><h2>Tell us where you want to go.</h2><p>Share your experience, interests and goals. That’s the whole first step.</p></div>
+      <div class="cap"><small>02 · Résumé</small><h2>Tell a stronger story.</h2><p>Role-focused résumé and LinkedIn work that speaks to the jobs you want.</p></div>
+      <div class="cap"><small>03 · Skills &amp; prep</small><h2>Show up ready.</h2><p>Mock interviews, study sessions and a plan built around your target role.</p></div>
+      <div class="cap"><small>04 · Submit</small><h2>Send it with confidence.</h2><p>Applications handled, interviews practiced, offers negotiated.</p></div>
+    </div>
+    <div class="sheetbox" data-sheetbox>
+      <div class="sheet">
+        <div class="s-head"><span class="logo" style="margin:0"><i>⚡</i></span><strong>Job application</strong><span data-status>Draft</span></div>
+        <div class="s-win"><div class="s-track" data-track></div></div>
+      </div>
+    </div>
+    <div class="hint" data-hint>Scroll</div>
+  </div>
+</div>
+
+<!-- 02 SKILLS : services -->
+<section class="step alt" id="skills" data-step="Skills">
+  <div class="wrap">
+    <div class="head c reveal"><span class="eyebrow"><b>02</b> Skills — what we do</span><h2>A little direction.<br>A lot of possibility.</h2><p class="lead">One focused challenge or a plan that brings it all together. Your goals set the direction.</p></div>
+    <div class="bento">
+      <a class="tile w2 blue reveal" href="/pages/lets-find-your-fit/"><span class="ic">↗</span><h3>Career strategy</h3><p>Turn “what’s next?” into a practical plan. One-on-one guidance for your job search, target roles and next career move.</p></a>
+      <a class="tile reveal d1" href="/collections/services/"><span class="ic">≡</span><h3>Résumé &amp; LinkedIn</h3><p>A stronger professional story, written for the roles you want.</p></a>
+      <a class="tile reveal d2" href="/collections/services/"><span class="ic">⌕</span><h3>Applications, handled</h3><p>AutoApply+ with weekly tracking reports.</p></a>
+      <a class="tile reveal" href="/collections/services/"><span class="ic">⇄</span><h3>Career transitions</h3><p>Make your experience work in a new field.</p></a>
+      <a class="tile w2 ink reveal d1" href="/collections/services/"><span class="ic">◎</span><h3>Interview preparation</h3><p>Practice the real conversation. Role-specific mock interviews, company research and feedback you can put to work.</p></a>
+      <a class="tile reveal d2" href="/collections/services/"><span class="ic">+</span><h3>Salary &amp; offer support</h3><p>Compensation research and negotiation coaching.</p></a>
+    </div>
+    <div class="links reveal"><a href="/collections/services/">Technical study sessions ›</a><a href="/collections/services/">Personalized cheat sheets ›</a><a href="/collections/services/">Interview guides ›</a></div>
+  </div>
+</section>
+
+<!-- 03 EXPERIENCE : how it works -->
+<section class="step dark" id="how" data-step="Process">
+  <div class="wrap">
+    <div class="head reveal"><span class="eyebrow"><b>03</b> Process — how it works</span><h2>You don’t have to<br>figure it out alone.</h2><p class="lead">A clear process. Personalized support. A real person in your corner.</p></div>
+    <div class="proc">
+      <div class="pstep" data-on><div class="n">1</div><div><h3>Tell us where you want to go.</h3><p>Share your experience, interests and goals through our intake form or a consultation.</p></div></div>
+      <div class="pstep" data-on><div class="n">2</div><div><h3>Put your plan into motion.</h3><p>We assess your background, sharpen your résumé and professional story, and support applications, interview practice or your transition.</p></div></div>
+      <div class="pstep" data-on><div class="n">3</div><div><h3>Show up ready.</h3><p>Practical preparation, feedback and guidance as you take your next step.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 PLAN : packages -->
+<section class="step" id="plan" data-step="Plan">
+  <div class="wrap">
+    <div class="head c reveal"><span class="eyebrow"><b>04</b> Plan — choose your support</span><h2>More support.<br>One clear plan.</h2><p class="lead">Find the right fit for your next move. Not sure? <a href="/pages/free-consultant/" style="color:var(--blue)">Let’s talk ›</a></p></div>
+    <div class="pk">
+      <div class="pkg reveal"><small>A focused head start</small><h3>Ace the Interview</h3><p class="d">For an upcoming interview you want to walk into prepared.</p><div class="price"><sup>$</sup>75</div><div class="once">one-time payment</div><ul><li>Interview guide &amp; timeline</li><li>Role-focused study resources</li><li>Technical interview coaching</li><li>Personalized interview cheat sheet</li></ul><a class="btn" href="/collections/packages/">View package</a></div>
+      <div class="pkg feat reveal d1"><small>The complete search support</small><h3>The Job Lock-In Package</h3><p class="d">For professionals ready to hand over the heavy lifting of their search.</p><div class="price"><sup>$</sup>300</div><div class="once">one-time payment</div><ul><li>Smart Apply job-search support</li><li>Industry-tailored mock interview</li><li>Curated job alerts &amp; VIP event access</li><li>30-day interview commitment*</li></ul><a class="btn" href="/collections/packages/">View package</a></div>
+      <div class="pkg reveal d2"><small>A new direction</small><h3>Career Pivot Pro</h3><p class="d">For career changers ready to put their experience to work in a new field.</p><div class="price"><sup>$</sup>149.99</div><div class="once">one-time payment</div><ul><li>Résumé &amp; LinkedIn revamp</li><li>Personalized career roadmap</li><li>Mock interviews for career changers</li><li>Networking &amp; strategy guidance</li></ul><a class="btn" href="/collections/packages/">View package</a></div>
+    </div>
+    <p class="fine reveal">*The Job Lock-In Package includes a free career strategy session if no interview is secured within 30 days. This is an interview commitment, not a job-offer guarantee. Ask us about eligibility. Prefer to spread out your payment? <a href="/pages/free-consultant/">Discuss the Plug-In Plan ›</a></p>
+  </div>
+</section>
+
+<!-- 05 REFERENCES : stories -->
+<section class="step alt" id="stories" data-step="References">
+  <div class="wrap">
+    <div class="head c reveal"><span class="eyebrow"><b>05</b> References — the difference support makes</span></div>
+    <p class="quote reveal">“I finally felt like I had a strategy — <span class="grad">and it worked.</span>”</p>
+    <p class="src reveal">From a published JobPlug client account · An individual experience; results vary.</p>
+    <div class="two">
+      <div class="reveal"><h3>A stronger professional story</h3><p>Résumé and LinkedIn improvements aligned to the roles clients wanted.</p></div>
+      <div class="reveal d1"><h3>More prepared for opportunity</h3><p>Targeted practice and a personal strategy helped clients approach interviews with confidence.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 COVER LETTER : founder story — roomy, editable -->
+<section class="step" id="story" data-step="Our story">
+  <div class="wrap">
+    <div class="fo">
+      <figure class="photo reveal"><img src="/assets/founder.jpg" alt="Founder of JobPlug" width="800" height="1066"><figcaption><b>[Founder name]</b>Founder, JobPlug</figcaption></figure>
+      <div class="letter">
+        <span class="eyebrow reveal"><b>06</b> Cover letter — the person behind the plug</span>
+        <h2 class="reveal">It started with helping a friend.</h2>
+        <p class="reveal">I started this journey in college by helping friends who were searching for internships and had no idea where to begin. I shared the same strategies that helped me land interviews and offers quickly, and the results spread far beyond what I expected.</p>
+        <p class="reveal">Friends told their families, classmates and coworkers, and before long I had helped more than thirty people secure opportunities they once believed were out of reach.</p>
+        <blockquote class="reveal">People aren’t lacking talent. They’re lacking direction, clarity, and someone who believes in them.</blockquote>
+        <p class="reveal">Over time I began asking people what they truly wanted for their lives and careers, and that simple question opened doors for real transformation. That growth inspired JobPlug.</p>
+        <div class="tl reveal">
+          <div><b>College</b><span>Helping friends land internships.</span></div>
+          <div><b>30+ people</b><span>Word spreads. Introductions, referrals, a bigger purpose.</span></div>
+          <div><b>JobPlug</b><span>A proven system across tech, trades, leadership, support and creative work.</span></div>
+        </div>
+        <p class="reveal">With the right support and the right plug guiding you, your career — and your life — can change in ways you never imagined. That is the heart of JobPlug.</p>
+        <div class="sig reveal">[Founder name]</div>
+        <div class="slot reveal"><b>Room for more</b>Drop in a 60-second intro video, extra photos, or a longer story here.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 QUESTIONS : faq -->
+<section class="step alt" id="faq" data-step="Questions">
+  <div class="wrap">
+    <div class="head c reveal"><span class="eyebrow"><b>07</b> Questions — good questions, straight answers</span><h2>Anything on your mind?</h2></div>
+    <div class="faq reveal">
+      <details><summary>Who is JobPlug for?</summary><p>Recent graduates, professionals seeking a better role, and people changing careers — across industries, with specialized services for technical roles.</p></details>
+      <details><summary>Do I need to know which service I want?</summary><p>No. Book a consultation or complete the intake form to share your goals, and we’ll help you decide which service fits.</p></details>
+      <details><summary>Can you apply to jobs on my behalf?</summary><p>Yes. AutoApply+ and the Job Lock-In Package include application support. Confirm the service period and scope before purchasing.</p></details>
+      <details><summary>What does the 30-day commitment include?</summary><p>A free career strategy session if no interview is secured within 30 days. It does not guarantee a job offer or a refund. Confirm eligibility and the start date during your consultation.</p></details>
+      <details><summary>What happens after I purchase?</summary><p>Onboarding starts with an email asking for your profile details and résumé. Complete your intake and follow the instructions so support can be tailored to your goals.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- 08 SUBMIT -->
+<section class="step dark submit" id="submit" data-step="Submit">
+  <div class="wrap">
+    <div class="reveal"><span class="eyebrow" style="justify-content:center"><b>08</b> Submit</span></div>
+    <h2 class="reveal">You’ve got potential.<br><span class="grad">Let’s put it to work.</span></h2>
+    <p class="lead reveal" style="margin:0 auto">Tell us where you are. We’ll help you see what comes next.</p>
+    <div class="row reveal"><a class="btn" href="/pages/free-consultant/">Book a consultation</a><a class="btn ghost" href="/pages/lets-find-your-fit/">Start your intake ›</a></div>
+    <div class="reveal" style="margin-top:60px"><span class="badge"><i>✓</i>Application ready to send</span></div>
+  </div>
+</section>
+
+<footer><div class="wrap"><span>© JobPlug · Real guidance. A clearer strategy. Your next chapter.</span><span><a href="/pages/about-me/">Our story</a> &nbsp;·&nbsp; <a href="/pages/testimonials/">Success stories</a> &nbsp;·&nbsp; <a href="/pages/contact/">Contact</a></span></div></footer>
+<div class="draftflag">Redesign draft · scroll to preview</div>
+
+<script>
+(() => {
+  const $ = (s,r=document) => r.querySelector(s), $$ = (s,r=document) => [...r.querySelectorAll(s)];
+  const clamp = (v,a=0,b=1) => Math.max(a,Math.min(b,v)), ease = t => 1-Math.pow(1-t,3);
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // scroll reveals
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold:.15 });
+  $$('.reveal').forEach(e => io.observe(e));
+  const io2 = new IntersectionObserver(es => es.forEach(e => e.target.classList.toggle('on',e.isIntersecting)), { rootMargin:'-35% 0px -35% 0px' });
+  $$('[data-on]').forEach(e => io2.observe(e));
+
+  // sample application inside the hero
+  const track = $('[data-track]'), status = $('[data-status]');
+  const NAME = 'Jordan Rivera', ROLE = 'Operations Manager';
+  const fields = [];
+  const field = (label,html,fn) => { const f = document.createElement('div'); f.className = 'f'; f.innerHTML = `<label>${label}</label>${html}`; track.append(f); fields.push({ el:f, fn:fn(f) }); };
+  field('Full name','<div class="in-box"><span></span><i class="caret"></i></div>', f => { const t = $('span',f), c = $('.caret',f); return p => { t.textContent = NAME.slice(0,Math.round(NAME.length*clamp(p/.8))); c.style.display = p>0&&p<1?'':'none'; }; });
+  field('Target role','<div class="in-box"><span></span><i class="caret"></i></div>', f => { const t = $('span',f), c = $('.caret',f); return p => { t.textContent = ROLE.slice(0,Math.round(ROLE.length*clamp(p/.8))); c.style.display = p>0&&p<1?'':'none'; }; });
+  field('Résumé','<div class="in-box"><div class="file"><em>PDF</em><span>Jordan_Rivera_Resume.pdf</span></div></div><div class="up"><i></i></div><div class="ok">✓ ATS-ready</div>', f => { const b = $('.up i',f), o = $('.ok',f); return p => { b.style.transform = `scaleX(${clamp(p/.7)})`; o.classList.toggle('on',p>.85); }; });
+  field('Skills','<div class="chips">'+['Leadership','Communication','Project management','Analytics','Operations'].map(s => `<span class="chip">${s}</span>`).join('')+'</div>', f => { const c = $$('.chip',f); return p => c.forEach((x,i) => x.classList.toggle('on',p>.08+i*.17)); });
+  field('Interview prep','<div class="ck"><i>✓</i>Mock interview</div><div class="ck"><i>✓</i>Role roadmap</div><div class="ck"><i>✓</i>Salary strategy</div>', f => { const c = $$('.ck',f); return p => c.forEach((x,i) => x.classList.toggle('on',p>.15+i*.28)); });
+  field('Ready?','<div class="sub">Submit application</div><div class="note">Illustrative example</div>', f => { const b = $('.sub',f); return p => { b.classList.toggle('p',p>.3); b.classList.toggle('w',p>.75); b.textContent = p>.75?'Interview scheduled ✓':p>.3?'Submitted ✓':'Submit application'; status.textContent = p>.75?'Interview!':p>.3?'Sent':'Draft'; status.classList.toggle('sent',p>.3); }; });
+
+  const hero = $('.hero'), hl = $('[data-hl]'), box = $('[data-sheetbox]'), caps = $$('.cap'), hint = $('[data-hint]');
+  let offs = [];
+  const measure = () => { offs = fields.map(f => f.el.offsetTop); };
+  const nameEl = $('[data-name]'), numEl = $('[data-n]'), bar = $('[data-bar]');
+  const steps = ['#top',...['#skills','#how','#plan','#stories','#story','#faq','#submit']].map(s => $(s));
+
+  function frame() {
+    const vh = innerHeight, small = innerWidth <= 900;
+    const range = hero.offsetHeight - vh, p = reduced ? .6 : clamp(-hero.getBoundingClientRect().top / range);
+    const rise = ease(clamp(p/.16));
+    const shift = small ? 0 : Math.min(innerWidth*.22,260) * ease(clamp((p-.1)/.12));
+    const down = (1-rise) * (vh*.98);
+    box.style.transform = `translate3d(${shift}px,${down}px,0) scale(${.86+.14*rise})`;
+    hl.style.opacity = 1 - clamp(p/.12); hl.style.transform = `translateY(${-p*160}px) scale(${1-p*.4})`;
+    hl.style.pointerEvents = p > .1 ? 'none' : '';
+    hint.style.opacity = p > .03 ? 0 : 1;
+    const q = clamp((p-.14)/.78), n = fields.length;
+    fields.forEach((f,i) => { const fp = clamp(q*n - i); f.fn(fp); f.el.classList.toggle('on',fp>0); });
+    const cur = Math.min(n-1,Math.floor(q*n)), frac = q*n - cur;
+    const pos = offs[cur] + ((offs[Math.min(cur+1,n-1)] - offs[cur]) * clamp(frac));
+    track.style.transform = `translateY(${-Math.max(0,pos-30).toFixed(1)}px)`;
+    const capIdx = p < .14 ? -1 : (q<.33?0:q<.5?1:q<.83?2:3);
+    caps.forEach((c,i) => c.classList.toggle('on',i === capIdx && p < .97));
+    // global stepper + progress
+    let idx = 0; steps.forEach((s,i) => { if (s.getBoundingClientRect().top < vh*.5) idx = i; });
+    numEl.textContent = String(idx+1).padStart(2,'0'); nameEl.textContent = steps[idx].dataset.step;
+    bar.style.transform = `scaleX(${clamp(scrollY/(document.documentElement.scrollHeight-vh))})`;
+  }
+  let raf = 0; const tick = () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; frame(); }); };
+  addEventListener('scroll',tick,{ passive:true }); addEventListener('resize',() => { measure(); tick(); });
+  document.fonts?.ready.then(() => { measure(); tick(); });
+  measure(); frame();
+})();
+</script>
+</body>
+</html>

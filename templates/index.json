@@ -3,36 +3,20 @@
     "hero": {
       "type": "jp-hero"
     },
-    "services": {
-      "type": "jp-services"
+    "application-journey": {
+      "type": "jp-application-journey"
     },
-    "process": {
-      "type": "jp-process"
-    },
-    "packages": {
-      "type": "jp-packages"
-    },
-    "stories": {
-      "type": "jp-stories"
-    },
-    "about": {
-      "type": "jp-about"
+    "submit": {
+      "type": "jp-submit"
     },
     "faq": {
       "type": "jp-faq"
-    },
-    "cta": {
-      "type": "jp-cta"
     }
   },
   "order": [
     "hero",
-    "services",
-    "process",
-    "packages",
-    "stories",
-    "about",
-    "faq",
-    "cta"
+    "application-journey",
+    "submit",
+    "faq"
   ]
 }

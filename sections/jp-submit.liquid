@@ -1,0 +1,12 @@
+<section class="lv-submit" id="submit" aria-labelledby="lv-h2s"><div class="lv-wrap"><span class="lv-eyebrow">Submit</span><h2 id="lv-h2s">Your application is complete.</h2><p class="lv-lead">This is the only application you will ever fill out.</p><div class="lv-grid"><article class="lv-card lv-reveal" style="--i:0">{% comment %}[CONFIRM] what Secure includes. Only 30 business days is confirmed.{% endcomment %}<span class="lv-eyebrow">Pay once</span><h3>Secure</h3><p class="lv-one">One payment. 30 business days of support.</p><div class="lv-price">${{ settings.price_secure }}</div><div class="lv-unit">paid in full</div>{% render 'jp-buy-now', handle: settings.handle_secure, cls: 'lv-btn' %}</article><article class="lv-card lv-reveal" style="--i:1">{% comment %}[CONFIRM] Secure Plus split and due date are not decided. Copy says two payments only.{% endcomment %}<span class="lv-eyebrow">Pay in two</span><h3>Secure Plus</h3><p class="lv-one">The same 30 business days. Spread over two payments.</p><div class="lv-price">${{ settings.price_secure_plus }}</div><div class="lv-unit">in two payments</div>{% render 'jp-buy-now', handle: settings.handle_secure_plus, cls: 'lv-btn' %}</article><article class="lv-card lv-reveal" style="--i:2">{% comment %}[CONFIRM booking app link]{% endcomment %}<span class="lv-eyebrow">Live session</span><h3>Interview Prep</h3><p class="lv-one">Practice for your interview in a live session.</p><div class="lv-price">${{ settings.price_interview_prep }}</div><div class="lv-unit">per 45 minute session</div>{% render 'jp-book-prep' %}</article></div><p class="lv-small">After checkout press Start Your Setup. Questions? Email <a href="mailto:jobplugx@gmail.com">jobplugx@gmail.com</a></p><p class="lv-draft">Draft notes. [CONFIRM] Secure Plus split. [CONFIRM] Interview Prep booking link. [CONFIRM] what each plan includes. Remove this box before launch.</p></div></section>
+{% schema %}
+{
+  "name": "Submit",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Submit"
+    }
+  ]
+}
+{% endschema %}

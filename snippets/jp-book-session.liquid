@@ -1,0 +1,2 @@
+{%- comment -%}Book Your Session. Calendly link from Theme settings. [CONFIRM Calendly booking link]. Interview Prep buyers only.{%- endcomment -%}
+{%- if settings.calendly_booking_url != blank -%}<a class="btn" href="{{ settings.calendly_booking_url }}" target="_blank" rel="noopener">Book Your Session</a>{%- else -%}<a class="btn placeholder" href="#book" aria-disabled="true">Book Your Session [CONFIRM Calendly booking link]</a>{%- endif -%}

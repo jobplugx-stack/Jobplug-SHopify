@@ -62,13 +62,13 @@
       },
       {
         "type": "header",
-        "content": "Interview Prep booking"
+        "content": "Interview Prep booking after purchase"
       },
       {
         "type": "url",
-        "id": "interview_prep_booking_url",
-        "label": "Booking app link",
-        "info": "[CONFIRM booking app link] Paste the booking and payment link. While empty a labeled placeholder button shows."
+        "id": "calendly_booking_url",
+        "label": "Calendly booking link",
+        "info": "[CONFIRM] Paste the owner Calendly link for the 45 minute event. Shown as Book Your Session on the thank-you page. Empty until confirmed. Do not reuse the old link."
       }
     ]
   },

@@ -5,7 +5,7 @@
 <div class="lv-sheet-head"><strong>Your application</strong><small>Sample</small></div>
 <div class="lv-prog"><div class="lv-bar" role="progressbar" aria-label="Application progress" aria-valuemin="0" aria-valuemax="5" aria-valuenow="5" id="lv-bar"><i id="lv-fill"></i></div><span class="lv-count" id="lv-count">5 of 5 plugged</span></div>
 <div class="lv-dots" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
-<p class="lv-now" id="lv-now">Complete. Ready to submit.</p>
+<p class="lv-now" id="lv-now">Ready. Submit with Buy Now.</p>
 <div class="lv-rows">
 <div class="lv-row on" data-row="1"><span class="lv-plug" aria-hidden="true">🔌</span><div><label>Name</label><div class="lv-val">Alex Morgan</div></div></div>
 <div class="lv-row on" data-row="2"><span class="lv-plug" aria-hidden="true">🔌</span><div><label>Target role</label><div class="lv-val">Project coordinator</div></div></div>
@@ -13,15 +13,15 @@
 <div class="lv-row on" data-row="4"><span class="lv-plug" aria-hidden="true">🔌</span><div><label>Inbox</label><div class="lv-val">alex@example.com</div></div></div>
 <div class="lv-row on" data-row="5"><span class="lv-plug" aria-hidden="true">🔌</span><div><label>Interview prep</label><div class="lv-val">45 minute session</div></div></div>
 </div>
-<p class="lv-done complete-note" role="status">Application complete. Ready to submit. ⚡</p>
+<p class="lv-done complete-note" role="status">Application ready. Submit it with Buy Now. ⚡</p>
 <p class="lv-foot">Example only. Your real application starts after checkout.</p>
 </div>
 </div>
 <div class="lv-steps">
 <article class="lv-step" data-step="1"><span class="lv-n">Plug 1 of 5</span><h2>Start with your name.</h2><p>One line. That is step one.</p></article>
 <article class="lv-step" data-step="2"><span class="lv-n">Plug 2 of 5</span><h2>Pick your target role.</h2><p>Say where you are going.</p></article>
-<article class="lv-step" data-step="3"><span class="lv-n">Plug 3 of 5</span><h2>Plug in what you bring.</h2><p>Your skills and experience. One place.</p><span class="lv-confirm">[CONFIRM what each plan covers]</span></article>
-<article class="lv-step" data-step="4"><span class="lv-n">Plug 4 of 5</span><h2>Plug in your inbox.</h2><p>Replies land where you can see them.</p><span class="lv-confirm">[CONFIRM inbox claim. See Terms C1]</span></article>
+<article class="lv-step" data-step="3"><span class="lv-n">Plug 3 of 5</span><h2>Plug in what you bring.</h2><p>Your skills and experience. One place.</p>{% if settings.show_draft_notes %}<span class="lv-confirm">[CONFIRM what each plan covers]</span>{% endif %}</article>
+<article class="lv-step" data-step="4"><span class="lv-n">Plug 4 of 5</span><h2>Plug in your inbox.</h2><p>Replies land where you can see them.</p>{% if settings.show_draft_notes %}<span class="lv-confirm">[CONFIRM inbox claim. See Terms C1]</span>{% endif %}</article>
 <article class="lv-step" data-step="5"><span class="lv-n">Plug 5 of 5</span><h2>Plug in the interview.</h2><p>Practice live. ${{ settings.price_interview_prep }} per 45 minute session.</p></article>
 </div>
 </div>

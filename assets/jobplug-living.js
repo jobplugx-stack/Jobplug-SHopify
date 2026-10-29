@@ -6,7 +6,7 @@ fill=document.getElementById('lv-fill'),count=document.getElementById('lv-count'
 names=['Name','Target role','Skills and experience','Inbox','Interview prep'];
 function set(n){rows.forEach(function(r,i){r.classList.toggle('on',i<n)});dots.forEach(function(d,i){d.classList.toggle('on',i<n)});
 fill.style.setProperty('--p',n);count.textContent=n+' of 5 plugged';bar.setAttribute('aria-valuenow',n);
-now.textContent=n<5?(n?'Plugged: '+names[n-1]:'Scroll to plug in'):'Complete. Ready to submit.';sheet.classList.toggle('complete',n===5)}
+now.textContent=n<5?(n?'Plugged: '+names[n-1]:'Scroll to plug in'):'Ready. Submit with Buy Now.';sheet.classList.toggle('complete',n===5)}
 function all(){set(5);steps.concat(cards).forEach(function(s){s.classList.add('in')})}
 if((window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)||!('IntersectionObserver' in window)){all();return}
 var max=0;set(0);

@@ -73,6 +73,18 @@
     ]
   },
   {
+    "name": "Draft notes",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_draft_notes",
+        "label": "Show draft notes",
+        "default": true,
+        "info": "Shows yellow [CONFIRM] notes on the home page. ON for owner preview. MUST be turned OFF before publishing."
+      }
+    ]
+  },
+  {
     "name": "Intake",
     "settings": [
       {

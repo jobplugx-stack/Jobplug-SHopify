@@ -1,6 +1,11 @@
 {
   "current": {
-    "calendly_url": "https://calendly.com/customtechconsultants/30min",
+    "price_secure": 300,
+    "price_secure_plus": 400,
+    "price_interview_prep": 150,
+    "handle_secure": "secure",
+    "handle_secure_plus": "secure-plus",
+    "handle_interview_prep": "interview-prep",
     "google_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdvUzJ04y0Iykh8uMRdfWHj5e1PZhLu4f47dK-4NkG0edHzIg/viewform"
   },
   "presets": {}

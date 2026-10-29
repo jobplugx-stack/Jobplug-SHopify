@@ -1,0 +1,5 @@
+{%- comment -%}Buy Now. Sends the buyer straight to Shopify checkout for the product handle given. Params: handle, cls.{%- endcomment -%}
+{%- assign buy_product = all_products[handle] -%}
+{%- if buy_product.id and buy_product.available -%}
+{%- form 'product', buy_product, class: 'buy-form' -%}<input type="hidden" name="id" value="{{ buy_product.selected_or_first_available_variant.id }}"><input type="hidden" name="quantity" value="1"><button type="submit" name="checkout" class="btn {{ cls }}">Buy Now</button>{%- endform -%}
+{%- else -%}<a class="btn {{ cls }}" href="{{ routes.root_url }}products/{{ handle }}">Buy Now</a>{%- endif -%}

@@ -1,26 +1,85 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "JobPlug \u2014 Next Chapter",
-    "theme_version": "1.0.0",
+    "theme_name": "JobPlug Next Chapter",
+    "theme_version": "1.1.0",
     "theme_author": "JobPlug",
     "theme_documentation_url": "https://www.jobplug.co",
-    "theme_support_url": "https://www.jobplug.co/pages/contact"
+    "theme_support_url": "mailto:jobplugx@gmail.com"
   },
   {
-    "name": "Booking and intake",
+    "name": "Offers and pricing",
     "settings": [
       {
-        "type": "url",
-        "id": "calendly_url",
-        "label": "Calendly booking URL",
-        "info": "Use the event URL without query parameters."
+        "type": "header",
+        "content": "Prices. One source of truth for every page."
+      },
+      {
+        "type": "number",
+        "id": "price_secure",
+        "label": "Secure price in USD",
+        "default": 300,
+        "info": "Paid in full. 30 business days. The Shopify product price must match."
+      },
+      {
+        "type": "number",
+        "id": "price_secure_plus",
+        "label": "Secure Plus price in USD",
+        "default": 400,
+        "info": "Two payments. 30 business days. [CONFIRM] Payment split is not decided."
+      },
+      {
+        "type": "number",
+        "id": "price_interview_prep",
+        "label": "Interview Prep price in USD",
+        "default": 150,
+        "info": "Per 45 minute live session."
+      },
+      {
+        "type": "header",
+        "content": "Shopify product handles for Buy Now"
+      },
+      {
+        "type": "text",
+        "id": "handle_secure",
+        "label": "Secure product handle",
+        "default": "secure",
+        "info": "[CONFIRM] Marcus sets the real handle."
+      },
+      {
+        "type": "text",
+        "id": "handle_secure_plus",
+        "label": "Secure Plus product handle",
+        "default": "secure-plus",
+        "info": "[CONFIRM] Marcus sets the real handle."
+      },
+      {
+        "type": "text",
+        "id": "handle_interview_prep",
+        "label": "Interview Prep product handle",
+        "default": "interview-prep",
+        "info": "[CONFIRM] Only used for the product page link."
+      },
+      {
+        "type": "header",
+        "content": "Interview Prep booking"
       },
       {
         "type": "url",
+        "id": "interview_prep_booking_url",
+        "label": "Booking app link",
+        "info": "[CONFIRM booking app link] Paste the booking and payment link. While empty a labeled placeholder button shows."
+      }
+    ]
+  },
+  {
+    "name": "Intake",
+    "settings": [
+      {
+        "type": "url",
         "id": "google_form_url",
-        "label": "Google Form respondent URL",
-        "info": "Use the full Google Forms viewform URL without query parameters. Submissions go directly to this form."
+        "label": "Official intake form URL",
+        "info": "Full Google Forms viewform URL without query parameters. Submissions go directly to this form. Also used by the Start Your Setup button."
       }
     ]
   }

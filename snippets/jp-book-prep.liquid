@@ -1,0 +1,2 @@
+{%- comment -%}Interview Prep booking. [CONFIRM booking app link]. Paste the booking app link in Theme settings, Offers and pricing. Until then a labeled placeholder shows.{%- endcomment -%}
+{%- if settings.interview_prep_booking_url != blank -%}<a class="btn outline" href="{{ settings.interview_prep_booking_url }}">Book and Pay</a>{%- else -%}<a class="btn outline placeholder" href="#packages" aria-disabled="true">Book Interview Prep [CONFIRM booking app link]</a>{%- endif -%}

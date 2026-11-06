@@ -46,9 +46,9 @@ Shopify/GitHub may require owner authorization to access this repository. Local 
 
 Checkout defaults OFF. Split billing defaults NOT verified. Do not switch either on before the required integrations and tests pass.
 
-- Job Search: $299 paid in full. Draft Shopify product handle `job-search`.
-- Split option: $99 now + $300 on counted service Business Day 25. $399 total. Reminder on counted day 23. This repository does not schedule or execute charges.
-- Interview Prep: $149. Draft product handle `interview-prep`.
+- Job Search: $299.99 paid in full. Draft Shopify product handle `job-search`.
+- Split option: $99.99 now + $300 on counted service Business Day 25. $399.99 total. Reminder on counted day 23. This repository does not schedule or execute charges.
+- Interview Prep: $149.99. Draft product handle `interview-prep`.
 - Shared Calendly event: https://calendly.com/customtechconsultants/interview-prep (45 minutes). Owner temporarily uses this for consultation and Interview Prep. Booking does not prove payment.
 - Email lead step prepares a visitor-sent draft to jobplux@gmail.com. No automatic capture or confirmation delivery.
 - Intake and post-purchase delivery still need verification. A historical Google Form URL exists in the previous main-branch configuration; do not assume it is the approved current intake.

@@ -6,4 +6,4 @@ __pycache__/
 !.env.example
 .shopify/
 node_modules/
-jobplug-public-extraction.zip
+releases/

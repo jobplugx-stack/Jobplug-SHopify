@@ -1,0 +1,7 @@
+legacy/**
+scripts/**
+.github/**
+releases/**
+README.md
+.gitignore
+.gitattributes

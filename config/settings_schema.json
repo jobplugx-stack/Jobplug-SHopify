@@ -1,26 +1,64 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "JobPlug \u2014 Next Chapter",
+    "theme_name": "JobPlug Cinematic",
     "theme_version": "1.0.0",
     "theme_author": "JobPlug",
-    "theme_documentation_url": "https://www.jobplug.co",
-    "theme_support_url": "https://www.jobplug.co/pages/contact"
+    "theme_documentation_url": "https://shopify.dev/docs/storefronts/themes",
+    "theme_support_url": "https://jobplug.co"
   },
   {
-    "name": "Booking and intake",
+    "name": "JobPlug connections",
     "settings": [
       {
-        "type": "url",
-        "id": "calendly_url",
-        "label": "Calendly booking URL",
-        "info": "Use the event URL without query parameters."
+        "type": "paragraph",
+        "content": "Checkout is off by default. Approve prices, policies and products before enabling. A theme cannot schedule counted-service-day charges."
+      },
+      {
+        "type": "checkbox",
+        "id": "checkout_enabled",
+        "label": "Enable approved one-time checkout",
+        "default": false
+      },
+      {
+        "type": "product",
+        "id": "secure_product",
+        "label": "Job Search paid-in-full product"
+      },
+      {
+        "type": "product",
+        "id": "interview_prep_product",
+        "label": "Interview Prep product"
+      },
+      {
+        "type": "paragraph",
+        "content": "Split payments remain blocked until an external billing integration is verified. This theme never schedules the second charge."
+      },
+      {
+        "type": "checkbox",
+        "id": "split_billing_verified",
+        "label": "Split billing integration verified",
+        "default": false
       },
       {
         "type": "url",
-        "id": "google_form_url",
-        "label": "Google Form respondent URL",
-        "info": "Use the full Google Forms viewform URL without query parameters. Submissions go directly to this form."
+        "id": "secure_plus_url",
+        "label": "Approved split-payment checkout URL"
+      },
+      {
+        "type": "url",
+        "id": "calendly_url",
+        "label": "Paid-client booking URL"
+      },
+      {
+        "type": "url",
+        "id": "intake_url",
+        "label": "Post-purchase intake URL"
+      },
+      {
+        "type": "url",
+        "id": "renewal_url",
+        "label": "Approved renewal URL"
       }
     ]
   }

@@ -1,7 +1,9 @@
 {
   "current": {
-    "calendly_url": "https://calendly.com/customtechconsultants/30min",
-    "google_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdvUzJ04y0Iykh8uMRdfWHj5e1PZhLu4f47dK-4NkG0edHzIg/viewform"
-  },
-  "presets": {}
+    "checkout_enabled": false,
+    "split_billing_verified": false,
+    "secure_product": "job-search",
+    "interview_prep_product": "interview-prep",
+    "calendly_url": "https://calendly.com/customtechconsultants/interview-prep"
+  }
 }

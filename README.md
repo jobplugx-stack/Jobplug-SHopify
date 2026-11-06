@@ -1,68 +1,66 @@
-# JobPlug — Next Chapter
+# JobPlug · World of Opportunity
 
-A native Shopify theme and local preview built from a public extraction of https://www.jobplug.co. Store detected in public Shopify metadata: `0mdj10-0h.myshopify.com`.
+Native Shopify redesign. Source is at the repository root. Owner reviews and publishes manually. Current live storefront must stay unchanged until that review.
 
-## Deliverables
+## Branches and publishing
 
-- `assets/`, `config/`, `layout/`, `locales/`, `sections/`, `snippets/`, `templates/` — native Shopify theme source at the repository root.
-- `jobplug-shopify-theme.zip` — uploadable theme package. Upload as an unpublished draft first.
-- `preview/` — 27 static preview pages using the same section markup, CSS, and JavaScript. Purchases link to the current store; local contact and cart pages explain this preview behavior.
-- `extraction-report.html` — content inventory, complete product scope, original content, and issues to resolve.
-- `extraction/` — 28 public URL records (27 HTML pages plus agent discovery metadata), raw HTML, clean page text, public catalog JSON, sitemaps, 38 images, and source/asset manifests.
-- `jobplug-public-extraction.zip` — generated locally by `report.py`; omitted from Git because the extracted source files are already included.
-- `theme-check.json` — Shopify Theme Check output.
+- `main`: existing older project. Not changed by this redesign.
+- `redesign-preview`: daily work. Connect ONLY to an unpublished Shopify theme.
+- `release-*`: reviewed snapshots. Use a separate snapshot for the theme the owner publishes. Do not publish the daily preview theme: subsequent pushes to a published GitHub-connected branch would change the live site automatically.
 
-## Preview
+Shopify synchronizes edits both ways. Pull before editing to preserve theme-editor changes. Never force-push. A passing GitHub check is evidence of source checks only, not proof of a working checkout.
 
-Run:
+## Everyday commands
+
+From this repository folder:
 
 ```sh
-python3 -m http.server 8765 --bind 127.0.0.1 --directory ./preview
+git switch redesign-preview
+git pull --ff-only origin redesign-preview
+python3 scripts/check.py
+sh scripts/update-preview.sh "Describe the change"
 ```
 
-Open http://localhost:8765/. The preview is local to this computer. Do not expose the extraction directory as a public site.
+The update command checks source files, refuses the wrong branch or a stale remote, commits the theme changes and pushes only `redesign-preview`. Review the Git diff before running it. It does not invoke Shopify Publish.
 
-## Install on Shopify
-
-1. Sign into JobPlug's Shopify admin.
-2. Under Online Store → Themes, use the theme upload option to upload `jobplug-shopify-theme.zip` as an unpublished theme.
-3. Open Customize. Check Theme settings → Booking and intake. Both existing destination URLs are already configured.
-4. Verify the current pages use the theme's standard page template. The page section recognizes `free-consultant`, `lets-find-your-fit`, `about-me`, `testimonials`, and `contact` by handle. Reassign a page's template if it does not fall back to the standard template.
-5. Preview existing products, collections, blog posts, cart, contact form, and applicable policy pages. Product/cart/contact actions require a Shopify-rendered preview; static preview does not execute them.
-6. Re-enable any desired existing app embeds (e.g. chat or reviews) in the unpublished theme. App settings from the previous theme are not available in a public extraction. A general app-block section is included.
-7. Check Calendly and Google Forms inside the unpublished Shopify theme. Their direct URLs load, and Google Forms also works in the existing live site. Both frames remained blank in the local browser preview. Direct fallback links are provided above and below both embeds.
-8. With the owner present, submit a clearly labeled test response and confirm it appears in Google Forms → Responses. If a response spreadsheet is wanted, confirm/select that destination from the form's Responses tab. The theme directly embeds Google Forms; it does not create a separate backend or a new spreadsheet.
-9. Check checkout using Shopify's appropriate test method, then review the draft before publishing.
-
-No production theme was changed. Shopify CLI denied access for the current identity. No appointments, purchases, messages, or Google Form responses were submitted during verification.
-
-## Content decisions
-
-The new site uses clear service categories and preserves existing URL handles. Standard product descriptions come from Shopify; package prices are dynamic. The local preview displays the captured prices.
-
-The deposit product (`mock-technical-interview`) directs visitors to a consultation. The `Deposit` variant of Job Lock-In is hidden in the draft purchase selector. Existing copy says $99/$399 while the catalog charges $100 and other headings say $400. Resolve deposit amount, balance, total, and payment due date before enabling these options. No live product data was edited.
-
-All three testimonial author fields conflict with their story text. The design uses an anonymized short quote and source-grounded summary instead of choosing a disputed name. Verify identities and permissions before introducing named case studies. Original stories and labels remain in the extraction.
-
-Unconfirmed counters and company affiliation claims are omitted. Old music-themed filler and generic team content are removed. The consultation copy uses the live 15-minute duration even though the URL ends in `/30min`.
-
-## Editing and rebuilding
-
-`build.py` generates theme sections/templates/configuration and preview HTML. Edit it for structural or copy changes; direct changes to generated Liquid will be overwritten on rebuild. Edit `assets/jobplug.css` and `assets/jobplug.js` directly for styles/behavior. Then run:
+To create a ZIP without pushing:
 
 ```sh
-python3 ./build.py
-SHOPIFY_CLI_NO_ANALYTICS=1 shopify theme check --path . --output json
+python3 scripts/package.py
 ```
 
-Homepage sections can be reordered/removed in Shopify. Hero copy and integration URLs are configurable in the theme editor. Other editorial copy is in the generated section files/build source. New product handles require updating the curated service/package mappings.
+Requires Git, Python 3 and Node.js. Sign into GitHub using your normal credential manager. Never put tokens in this repository.
 
-`extract.py` and `download_assets.py` reproduce the public extraction; `report.py` regenerates the HTML report and archive. Network access is required for extraction. Do not run extracted website scripts as build instructions.
+## Review and release
 
-## Scroll-controlled application walkthrough
+1. Shopify → Online Store → Themes → Import → Connect from GitHub.
+2. Choose this repository and `redesign-preview`. Keep the resulting theme unpublished.
+3. Preview desktop, mobile, quiz, founder story, terms, native product/cart pages and booking links.
+4. Once checkout and operations are verified, create a new release snapshot from the reviewed commit. Example: `git branch release-v1` then `git push origin release-v1`.
+5. Connect that release branch as a separate draft theme. Review the snapshot. The OWNER clicks Publish when ready.
+6. Keep daily updates on the unpublished preview branch. For subsequent public updates create another reviewed release snapshot. Publishing is not automated.
 
-The homepage includes `jp-application-journey`, generated from `application-walkthrough.html`. Native page scrolling moves a sample application through five stages, with reversible document motion, progress indicators, and previous/next controls. Reduced-motion preferences and short viewports receive a static readable version. It is illustrative and submits no data. It can be reordered or removed in the Shopify theme editor.
+Shopify/GitHub may require owner authorization to access this repository. Local commits alone do not establish that connection.
 
-## GitHub → Shopify
+## Current release state
 
-Theme source is at the root so this repository can be connected to Shopify’s GitHub theme integration. Connect the `main` branch as an unpublished theme first. The `preview/`, `extraction/`, Python scripts, reports, and ZIP are supporting project files, not storefront assets.
+Checkout defaults OFF. Split billing defaults NOT verified. Do not switch either on before the required integrations and tests pass.
+
+- Job Search: $299 paid in full. Draft Shopify product handle `job-search`.
+- Split option: $99 now + $300 on counted service Business Day 25. $399 total. Reminder on counted day 23. This repository does not schedule or execute charges.
+- Interview Prep: $149. Draft product handle `interview-prep`.
+- Shared Calendly event: https://calendly.com/customtechconsultants/interview-prep (45 minutes). Owner temporarily uses this for consultation and Interview Prep. Booking does not prove payment.
+- Email lead step prepares a visitor-sent draft to jobplux@gmail.com. No automatic capture or confirmation delivery.
+- Intake and post-purchase delivery still need verification. A historical Google Form URL exists in the previous main-branch configuration; do not assume it is the approved current intake.
+
+Products and tax/availability settings live in Shopify, not in this repository. No customer data or card credentials belong here.
+
+## Editing
+
+- Visual journey and copy: `assets/app.js.liquid`.
+- Appearance: `assets/styles.css.liquid` and companion CSS files.
+- Theme settings: `config/settings_schema.json` and `config/settings_data.json`.
+- Shopify destination wiring and image map: `snippets/jobplug-config.liquid`.
+- Native product/cart/page sections: `sections/`.
+
+`legacy/` preserves the previous project's scripts and reports for reference. Do not run its build.py against this theme. Its prices, preview screenshots and validation outputs are historical.

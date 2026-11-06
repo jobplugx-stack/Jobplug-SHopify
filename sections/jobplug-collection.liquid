@@ -1,0 +1,2 @@
+<main id="main" tabindex="-1" class="content-page"><h1>{{ collection.title | escape }}</h1>{{ collection.description }}{% paginate collection.products by 24 %}{% for product in collection.products %}<article><h2><a href="{{ product.url }}">{{ product.title | escape }}</a></h2><p>{{ product.price | money_with_currency }}</p></article>{% endfor %}{{ paginate | default_pagination }}{% endpaginate %}</main>
+{% schema %}{"name": "Collection", "settings": []}{% endschema %}

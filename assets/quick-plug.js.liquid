@@ -1,0 +1,27 @@
+(() => {
+  let dialog;
+  let opener;
+  let restoreFocus=true;
+  function close(navigating=false) { restoreFocus=!navigating; if(dialog?.open) dialog.close(); }
+  function open(trigger) {
+    opener=trigger || document.activeElement;restoreFocus=true;
+    if(!dialog) {
+      dialog=document.createElement('dialog');
+      dialog.className='quick-plug-dialog';
+      dialog.setAttribute('aria-labelledby','quick-plug-title');
+      dialog.innerHTML=`<button class="quick-close" aria-label="Close quick choices" type="button">×</button><span class="eyebrow">STRAIGHT TO THE PLUG</span><h2 id="quick-plug-title">Your next move.<br>Your choice.</h2><p class="quick-intro">Skip the journey. Choose what you need.</p><div class="quick-options"><a href="#plans" data-quick-link><span><b>Job Search</b><small>30 counted service Business Days</small></span><strong>$299<small>Pay in full</small></strong><i aria-hidden="true">↗</i></a><p class="quick-schedule">Or choose split payments: $99 today + $300 on counted service Business Day 25. Total $399. Same service. A reminder is sent 2 counted service Business Days before the charge.</p><a href="#prep" data-quick-link><span><b>Interview Prep</b><small>Optional live 45-minute session</small></span><strong>$149<small>One session</small></strong><i aria-hidden="true">↗</i></a></div><p class="quick-foot">Review your selection and terms before checkout. <a href="#terms" data-quick-link>Read terms</a></p>`;
+      document.body.appendChild(dialog);
+      dialog.querySelector('.quick-close').addEventListener('click',()=>close());
+      dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)close();}});
+      dialog.addEventListener('close',()=>{document.body.classList.remove('quick-is-open');if(restoreFocus&&opener?.isConnected)opener.focus({preventScroll:true});});
+      dialog.querySelectorAll('[data-quick-plan]').forEach(button=>button.addEventListener('click',()=>{close(true);window.dispatchEvent(new CustomEvent('jobplug:choose',{detail:button.dataset.quickPlan}));}));
+      dialog.querySelectorAll('[data-quick-link]').forEach(link=>link.addEventListener('click',()=>close(true)));
+    }
+    if(!dialog.open){dialog.showModal();document.body.classList.add('quick-is-open');dialog.querySelector('.quick-close').focus();}
+  }
+  window.JobPlugQuick={open,close};
+  const trigger=document.createElement('button');
+  trigger.type='button';trigger.className='quick-plug-fab';trigger.innerHTML='<span aria-hidden="true">↗</span> Straight to the Plug';
+  trigger.setAttribute('aria-haspopup','dialog');trigger.addEventListener('click',()=>open(trigger));document.body.appendChild(trigger);
+  window.addEventListener('hashchange',()=>{if(dialog?.open)close(true);});
+})();

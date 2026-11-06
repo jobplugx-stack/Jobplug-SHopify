@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "jp-page"
+      "type": "jobplug-page"
     }
   },
   "order": [

@@ -1,38 +1,10 @@
 {
   "sections": {
-    "hero": {
-      "type": "jp-hero"
-    },
-    "services": {
-      "type": "jp-services"
-    },
-    "process": {
-      "type": "jp-process"
-    },
-    "packages": {
-      "type": "jp-packages"
-    },
-    "stories": {
-      "type": "jp-stories"
-    },
-    "about": {
-      "type": "jp-about"
-    },
-    "faq": {
-      "type": "jp-faq"
-    },
-    "cta": {
-      "type": "jp-cta"
+    "main": {
+      "type": "jobplug-app"
     }
   },
   "order": [
-    "hero",
-    "services",
-    "process",
-    "packages",
-    "stories",
-    "about",
-    "faq",
-    "cta"
+    "main"
   ]
 }

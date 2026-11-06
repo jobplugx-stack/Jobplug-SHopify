@@ -1,10 +1,11 @@
 {
   "current": {
-    "checkout_enabled": false,
+    "checkout_enabled": true,
     "split_billing_verified": false,
     "secure_product": "job-search",
     "interview_prep_product": "interview-prep",
     "calendly_url": "https://calendly.com/customtechconsultants/interview-prep",
-    "bundle_product": "job-search-interview-prep"
+    "bundle_product": "job-search-interview-prep",
+    "renewal_url": "https://www.jobplug.co/products/job-search"
   }
 }

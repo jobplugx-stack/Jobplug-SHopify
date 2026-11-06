@@ -31,6 +31,11 @@
         "label": "Interview Prep product"
       },
       {
+        "type": "product",
+        "id": "bundle_product",
+        "label": "Job Search + Interview Prep $400 bundle product"
+      },
+      {
         "type": "paragraph",
         "content": "Split payments remain blocked until an external billing integration is verified. This theme never schedules the second charge."
       },

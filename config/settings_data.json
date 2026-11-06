@@ -4,6 +4,7 @@
     "split_billing_verified": false,
     "secure_product": "job-search",
     "interview_prep_product": "interview-prep",
-    "calendly_url": "https://calendly.com/customtechconsultants/interview-prep"
+    "calendly_url": "https://calendly.com/customtechconsultants/interview-prep",
+    "bundle_product": "job-search-interview-prep"
   }
 }

@@ -86,6 +86,7 @@ window.JOBPLUG_CONFIG = Object.freeze({
  mode: {% if settings.checkout_enabled %}'live'{% else %}'demo'{% endif %},
  secureUrl: {% if settings.checkout_enabled and settings.secure_product != blank %}{{ settings.secure_product.url | prepend: shop.url | json }}{% else %}''{% endif %},
  interviewPrepUrl: {% if settings.checkout_enabled and settings.interview_prep_product != blank %}{{ settings.interview_prep_product.url | prepend: shop.url | json }}{% else %}''{% endif %},
+ bundleUrl: {% if settings.checkout_enabled and settings.bundle_product != blank %}{{ settings.bundle_product.url | prepend: shop.url | json }}{% else %}''{% endif %},
  securePlusUrl: {% if settings.checkout_enabled and settings.split_billing_verified %}{{ settings.secure_plus_url | default: '' | json }}{% else %}''{% endif %},
  calendlyUrl: {{ settings.calendly_url | default: '' | json }},
  intakeUrl: {{ settings.intake_url | default: '' | json }},

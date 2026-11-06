@@ -73,3 +73,13 @@ document.addEventListener('click',function(event){
  event.preventDefault();document.querySelectorAll('dialog[open]').forEach(dialog=>dialog.close());
  window.location.assign(jobplugPolicyUrl(target.hash||'#terms'));
 },true);
+
+// Product email links reuse the cinematic storefront and select the intended offer.
+const offerPath=window.location.pathname.replace(/\/$/,'');
+if(offerPath==='/products/job-search-interview-prep'){
+ payment='full';bundle=true;updatePricing();document.querySelector('#pricing').scrollIntoView({behavior:'instant',block:'start'});
+}else if(offerPath==='/products/job-search'){
+ payment='full';bundle=false;updatePricing();document.querySelector('#pricing').scrollIntoView({behavior:'instant',block:'start'});
+}else if(offerPath==='/products/interview-prep'){
+ document.querySelector('#pricing').scrollIntoView({behavior:'instant',block:'start'});document.querySelector('#prep').click();
+}
